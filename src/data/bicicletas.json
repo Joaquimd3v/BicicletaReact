@@ -1,0 +1,391 @@
+{
+  "bicicletas": [
+    {
+      "nome": "Vireon Pulse",
+      "preco": "R$ 70.000",
+      "imagens": [
+        "bicicletas-comprar/pulse/pulse.jpg",
+        "bicicletas-comprar/pulse/pulse-1.png",
+        "bicicletas-comprar/pulse/pulse-3.png",
+        "bicicletas-comprar/pulse/pulse-2.png"
+      ],
+      "descricao": "A Vireon Element é a escolha certa para quem busca mobilidade com estilo. Com quadro leve em alumínio 7005, freios a disco e câmbio de 21 velocidades, ela oferece desempenho e controle para o uso urbano e passeios mais longos. Design moderno, componentes de qualidade e conforto em cada pedalada.",
+      "informacoes": [
+        {
+          "icone": "eletrica.svg",
+          "titulo": "Motor Elétrico",
+          "descricao": "Sistema elétrico de alto desempenho com autonomia de até 120 km por carga, ideal para trajetos longos."
+        },
+        {
+          "icone": "velocidade.svg",
+          "titulo": "160 km/h",
+          "descricao": "Capaz de alcançar altas velocidades com segurança e precisão, ideal para longas distâncias."
+        },
+        {
+          "icone": "rastreador.svg",
+          "titulo": "Rastreador",
+          "descricao": "Rastreador e sistema anti-furto para garantir o seu sossego."
+        },
+        {
+          "icone": "carbono.svg",
+          "titulo": "Fibra de Carbono",
+          "descricao": "Maior proteção possível para a sua Bikcraft com alumínio 6061."
+        }
+      ],
+      "fichaTecnica": {
+        "Peso": "7 kg",
+        "Altura": "60 cm",
+        "Largura": "120 cm",
+        "Profundidade": "10 cm",
+        "Marchas": "16",
+        "Roda": "29"
+      },
+      "estoque": 18,
+      "entrega": "entrega em 5 dias"
+    },
+    {
+      "nome": "Vireon Nero",
+      "preco": "R$ 20.000",
+      "imagens": [
+        "bicicletas-comprar/nero/Nero-1.jpg",
+        "bicicletas-comprar/nero/Nero-2.png",
+        "bicicletas-comprar/nero/Nero-3.png",
+        "bicicletas-comprar/nero/Nero-4.png"
+      ],
+      "descricao": "A Vireon Nero é a bicicleta elétrica pensada para quem busca um equilíbrio perfeito entre potência e sofisticação. Com um visual impecável em preto fosco e quadro em fibra de carbono, ela oferece o que há de mais moderno em design, leveza e desempenho.",
+      "informacoes": [
+        {
+          "icone": "eletrica.svg",
+          "titulo": "Motor Elétrico",
+          "descricao": "Equipada com motor Bafang 500W, garante força e eficiência mesmo em subidas e terrenos desafiadores."
+        },
+        {
+          "icone": "velocidade.svg",
+          "titulo": "100 km/h",
+          "descricao": "Desempenho esportivo com velocidade final de até 100 km/h, mantendo estabilidade e controle."
+        },
+        {
+          "icone": "rastreador.svg",
+          "titulo": "Rastreador",
+          "descricao": "Sistema de rastreamento integrado via aplicativo para máxima segurança contra furtos."
+        },
+        {
+          "icone": "carbono.svg",
+          "titulo": "Fibra de Carbono",
+          "descricao": "Estrutura em fibra de carbono leve e resistente, proporcionando rigidez e absorção de impactos."
+        }
+      ],
+      "fichaTecnica": {
+        "Peso": "6.5 kg",
+        "Altura": "62 cm",
+        "Largura": "118 cm",
+        "Profundidade": "9.5 cm",
+        "Marchas": "18",
+        "Roda": "29"
+      },
+      "estoque": 12,
+      "entrega": "entrega em 7 dias"
+    },
+    {
+      "nome": "Vireon Nebula",
+      "preco": "R$ 64.000",
+      "imagens": [
+        "bicicletas-comprar/nebula/nebula-1.jpg",
+        "bicicletas-comprar/nebula/nebula-2.png",
+        "bicicletas-comprar/nebula/nebula-3.png",
+        "bicicletas-comprar/nebula/nebula-4.png"
+      ],
+      "descricao": "A Vireon Nebula é a bicicleta para quem busca o máximo em desempenho, tecnologia e design. Com um quadro em fibra de carbono ultra-leve e rodas de última geração, ela entrega uma performance incomparável. Seu design branco elegante completa o visual premium, ideal para ciclistas exigentes.",
+      "informacoes": [
+        {
+          "icone": "eletrica.svg",
+          "titulo": "Motor Elétrico",
+          "descricao": "Equipada com motor Bosch Performance, entrega potência com extrema eficiência energética para qualquer trajeto."
+        },
+        {
+          "icone": "velocidade.svg",
+          "titulo": "100 km/h",
+          "descricao": "Velocidade final de até 100 km/h com estabilidade e controle, mesmo em altas rotações."
+        },
+        {
+          "icone": "rastreador.svg",
+          "titulo": "Rastreador",
+          "descricao": "Sistema de rastreamento integrado via aplicativo, oferecendo segurança e controle em tempo real."
+        },
+        {
+          "icone": "carbono.svg",
+          "titulo": "Fibra de Carbono",
+          "descricao": "Quadro em fibra de carbono ultra-leve, desenvolvido para máxima performance e absorção de impacto."
+        }
+      ],
+      "fichaTecnica": {
+        "Peso": "6.2 kg",
+        "Altura": "63 cm",
+        "Largura": "119 cm",
+        "Profundidade": "9.8 cm",
+        "Marchas": "22",
+        "Roda": "29"
+      },
+      "estoque": 9,
+      "entrega": "entrega em 7 dias"
+    },
+    {
+      "nome": "Vireon Element",
+      "preco": "R$ 17.000",
+      "imagens": [
+        "bicicletas-comprar/element/element-1.jpg",
+        "bicicletas-comprar/element/element-2.png",
+        "bicicletas-comprar/element/element-3.png",
+        "bicicletas-comprar/element/element-4.png"
+      ],
+      "descricao": "A Vireon Element é a escolha certa para quem busca mobilidade com estilo. Com quadro leve em alumínio 7005, freios a disco e câmbio de 21 velocidades, ela oferece desempenho e controle para o uso urbano e passeios mais longos. Design moderno, componentes de qualidade e conforto em cada pedalada.",
+      "informacoes": [
+        {
+          "icone": "eletrica.svg",
+          "titulo": "Motor Elétrico Mid-Drive",
+          "descricao": "Motor central de alta eficiência, ideal para equilíbrio e melhor distribuição de peso durante os percursos urbanos e mistos."
+        },
+        {
+          "icone": "carbono.svg",
+          "titulo": "Alumínio 7005",
+          "descricao": "Quadro leve e resistente em alumínio 7005, oferecendo rigidez estrutural e absorção de impactos com conforto."
+        },
+        {
+          "icone": "velocidade.svg",
+          "titulo": "70 km/h",
+          "descricao": "Velocidade final de até 70 km/h, ideal para quem busca agilidade no trânsito urbano e trajetos mistos com segurança."
+        },
+        {
+          "icone": "rastreador.svg",
+          "titulo": "Rastreador",
+          "descricao": "Rastreador integrado via aplicativo, garantindo segurança e controle em tempo real da sua bike."
+        }
+      ],
+      "fichaTecnica": {
+        "Peso": "7.8 kg",
+        "Altura": "61 cm",
+        "Largura": "117 cm",
+        "Profundidade": "10.2 cm",
+        "Marchas": "21",
+        "Roda": "29"
+      },
+      "estoque": 15,
+      "entrega": "entrega em 6 dias"
+    },
+    {
+      "nome": "Vireon Ignite",
+      "preco": "R$ 35.000",
+      "imagens": [
+        "bicicletas-comprar/ignite/ignite-1.jpg",
+        "bicicletas-comprar/ignite/ignite-2.png",
+        "bicicletas-comprar/ignite/ignite-3.png",
+        "bicicletas-comprar/ignite/ignite-4.png"
+      ],
+      "descricao": "Potente, leve e pronta para qualquer desafio. A Vireon Ignite conta com motor central de alto desempenho, quadro em fibra de carbono e componentes premium para entregar uma experiência de pedalada única. Ideal para quem busca performance, autonomia e tecnologia de ponta em uma e-bike.",
+      "informacoes": [
+        {
+          "icone": "eletrica.svg",
+          "titulo": "Motor Elétrico Brose Drive",
+          "descricao": "Motor central de alto desempenho, proporcionando torque otimizado e resposta imediata para percursos exigentes."
+        },
+        {
+          "icone": "carbono.svg",
+          "titulo": "Fibra de Carbono",
+          "descricao": "Quadro ultraleve e resistente em fibra de carbono, ideal para máxima performance e absorção de impactos."
+        },
+        {
+          "icone": "velocidade.svg",
+          "titulo": "90 km/h",
+          "descricao": "Velocidade final impressionante de até 90 km/h, feita para quem busca adrenalina com segurança e controle."
+        },
+        {
+          "icone": "rastreador.svg",
+          "titulo": "Rastreador Integrado via App",
+          "descricao": "Sistema de rastreamento embutido com acesso por aplicativo, oferecendo proteção e monitoramento em tempo real."
+        }
+      ],
+      "fichaTecnica": {
+        "Peso": "6.5 kg",
+        "Altura": "59 cm",
+        "Largura": "115 cm",
+        "Profundidade": "9.8 cm",
+        "Marchas": "21",
+        "Roda": "29"
+      },
+      "estoque": 10,
+      "entrega": "entrega em 6 dias"
+    },
+    {
+      "nome": "Vireon Aura",
+      "preco": "R$ 37.500",
+      "imagens": [
+        "bicicletas-comprar/aura/aura-1.jpg",
+        "bicicletas-comprar/aura/aura-2.png",
+        "bicicletas-comprar/aura/aura-3.png",
+        "bicicletas-comprar/aura/aura-4.png"
+      ],
+      "descricao": "A Vireon Aura é a bicicleta elétrica pensada para quem enxerga a cidade como uma extensão do seu estilo. Leve, elegante e poderosa, ela combina tecnologia de ponta com um visual minimalista que chama atenção por onde passa. Com seu quadro em fibra de carbono ultra-leve e acabamento refinado, a Aura flutua pelas ruas com uma suavidade impressionante. A cor grafite fosca, com detalhes metálicos sutis, transmite modernidade e personalidade — perfeita para quem valoriza design tanto quanto desempenho.",
+      "informacoes": [
+        {
+          "icone": "eletrica.svg",
+          "titulo": "Motor Bafang Deluxe",
+          "descricao": "Motor elétrico de alta performance com entrega suave de potência, ideal para trajetos urbanos com estilo e eficiência."
+        },
+        {
+          "icone": "carbono.svg",
+          "titulo": "Fibra de Carbono Monobloco",
+          "descricao": "Quadro monobloco em fibra de carbono, oferecendo leveza, rigidez e um visual sofisticado sem abrir mão da resistência."
+        },
+        {
+          "icone": "velocidade.svg",
+          "titulo": "85 km/h",
+          "descricao": "Velocidade máxima de até 85 km/h, ideal para quem busca agilidade e performance nas ruas da cidade."
+        },
+        {
+          "icone": "rastreador.svg",
+          "titulo": "Rastreador Integrado via App",
+          "descricao": "Sistema de rastreamento integrado com acesso por aplicativo, oferecendo praticidade e segurança em tempo real."
+        }
+      ],
+      "fichaTecnica": {
+        "Peso": "6.2 kg",
+        "Altura": "58 cm",
+        "Largura": "114 cm",
+        "Profundidade": "9.5 cm",
+        "Marchas": "21",
+        "Roda": "29"
+      },
+      "estoque": 8,
+      "entrega": "entrega em 6 dias"
+    },
+    {
+      "nome": "Vireon Flux",
+      "preco": "R$ 64.000",
+      "imagens": [
+        "bicicletas-comprar/flux/flux-1.jpg",
+        "bicicletas-comprar/flux/flux-2.png",
+        "bicicletas-comprar/flux/flux-3.png",
+        "bicicletas-comprar/flux/flux-4.png"
+      ],
+      "descricao": "A Vireon Flux é a fusão perfeita entre potência e elegância. Criada para quem exige mais da mobilidade elétrica, ela entrega uma experiência de pedal imersiva, envolvente e cheia de atitude. Com um visual marcante e aerodinâmico, a Flux transforma cada trajeto em um momento de puro controle e fluidez.",
+      "informacoes": [
+        {
+          "icone": "eletrica.svg",
+          "titulo": "Motor Bosch Performance Line CX",
+          "descricao": "Desempenho de ponta com torque otimizado e resposta instantânea, ideal para quem busca potência e controle em qualquer terreno."
+        },
+        {
+          "icone": "carbono.svg",
+          "titulo": "Fibra de Carbono e Grafeno",
+          "descricao": "Estrutura ultraleve e super resistente com materiais de última geração que garantem rigidez, leveza e durabilidade incomparável."
+        },
+        {
+          "icone": "velocidade.svg",
+          "titulo": "100 km/h",
+          "descricao": "Velocidade máxima impressionante para quem quer ir além dos limites urbanos com agilidade e segurança."
+        },
+        {
+          "icone": "rastreador.svg",
+          "titulo": "Rastreador Integrado via App",
+          "descricao": "Conectividade total com rastreamento em tempo real para garantir segurança e controle na palma da sua mão."
+        }
+      ],
+      "fichaTecnica": {
+        "Peso": "5.8 kg",
+        "Altura": "56 cm",
+        "Largura": "112 cm",
+        "Profundidade": "9.2 cm",
+        "Marchas": "21",
+        "Roda": "29"
+      },
+      "estoque": 5,
+      "entrega": "entrega em até 7 dias"
+    },
+    {
+      "nome": "Vireon Magic",
+      "preco": "R$ 35.000",
+      "imagens": [
+        "bicicletas-comprar/magic/magic-1.jpg",
+        "bicicletas-comprar/magic/magic-2.png",
+        "bicicletas-comprar/magic/magic-3.png",
+        "bicicletas-comprar/magic/magic-4.png"
+      ],
+      "descricao": "A Vireon Magic é liberdade com personalidade. Criada para quem busca uma bicicleta elétrica leve, estilosa e funcional, ela transforma cada deslocamento em uma experiência leve, silenciosa e surpreendentemente prazerosa.",
+      "informacoes": [
+        {
+          "icone": "motor.svg",
+          "titulo": "Motor Bafang 250w",
+          "descricao": "Movida por um motor eficiente e silencioso, entrega potência suave e confiável para o dia a dia urbano."
+        },
+        {
+          "icone": "aluminio.svg",
+          "titulo": "Quadro em Alumínio Premium 6061",
+          "descricao": "Leveza e durabilidade com design limpo e moderno, construído para resistir ao uso urbano intenso com conforto."
+        },
+        {
+          "icone": "velocidade.svg",
+          "titulo": "100 km/h",
+          "descricao": "Velocidade máxima ideal para quem busca praticidade sem abrir mão da performance."
+        },
+        {
+          "icone": "rastreador.svg",
+          "titulo": "Rastreador Integrado via App",
+          "descricao": "Segurança e conectividade em tempo real para você pedalar com tranquilidade."
+        }
+      ],
+      "fichaTecnica": {
+        "Peso": "7.1 kg",
+        "Altura": "57 cm",
+        "Largura": "113 cm",
+        "Profundidade": "9.3 cm",
+        "Marchas": "21",
+        "Roda": "29"
+      },
+      "estoque": 12,
+      "entrega": "entrega em até 5 dias"
+    },
+    {
+      "nome": "Vireon Veloce",
+      "preco": "R$ 100.000",
+      "imagens": [
+        "bicicletas-comprar/veloce/veloce-1.jpg",
+        "bicicletas-comprar/veloce/veloce-2.png",
+        "bicicletas-comprar/veloce/veloce-3.png",
+        "bicicletas-comprar/veloce/veloce-4.png"
+      ],
+      "descricao": "A Vireon Veloce foi feita para quem vive em movimento. Ágil, leve e com um design minimalista e sofisticado, ela oferece uma experiência de pedal fluida e precisa, ideal para quem quer atravessar a cidade com estilo e sem perder tempo.",
+      "informacoes": [
+        {
+          "icone": "eletrica.svg",
+          "titulo": "Motor Mahle X35+ 250W",
+          "descricao": "Motor compacto e eficiente que garante uma assistência elétrica natural e responsiva, perfeito para deslocamentos urbanos de alta performance."
+        },
+        {
+          "icone": "carbono.svg",
+          "titulo": "Alumínio Escovado Premium",
+          "descricao": "Quadro em alumínio 6061 escovado com soldas polidas, unindo leveza, resistência e um acabamento refinado e moderno."
+        },
+        {
+          "icone": "velocidade.svg",
+          "titulo": "180 km/h",
+          "descricao": "Velocidade máxima impressionante, feita para quem busca agilidade extrema e performance no mais alto nível."
+        },
+        {
+          "icone": "rastreador.svg",
+          "titulo": "Rastreador Integrado via App",
+          "descricao": "Sistema de rastreamento integrado com tecnologia avançada para maior segurança, controle e tranquilidade."
+        }
+      ],
+      "fichaTecnica": {
+        "Peso": "6.5 kg",
+        "Altura": "56 cm",
+        "Largura": "112 cm",
+        "Profundidade": "9 cm",
+        "Marchas": "20",
+        "Roda": "28"
+      },
+      "estoque": 5,
+      "entrega": "entrega em 7 dias"
+    }
+  ]
+}

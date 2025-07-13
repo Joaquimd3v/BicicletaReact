@@ -1,0 +1,256 @@
+.comentarios-section {
+  background: white;
+  border-radius: 16px;
+  padding: 3rem 2rem;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.06);
+  margin-top: 4rem;
+  width: 100%;
+  margin-bottom: 15rem;
+}
+
+.comentarios-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.comentarios-header h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.comentarios-header .estrela {
+  color: gold;
+  margin-right: 0.5rem;
+}
+
+.avaliacao-resumo {
+  text-align: right;
+}
+
+.avaliacao-resumo strong {
+  font-size: 1.8rem;
+  color: #f5a623;
+}
+
+.avaliacao-resumo .estrelas {
+  color: gold;
+  font-size: 1.1rem;
+}
+
+.avaliacao-resumo span {
+  font-size: 0.9rem;
+  color: #999;
+}
+
+.comentarios-resumo {
+  margin-bottom: 2rem;
+}
+
+.comentarios-resumo h3 {
+  font-size: 1.1rem;
+  color: #f5a623;
+  margin-bottom: 0.5rem;
+}
+
+.comentarios-resumo ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.comentarios-resumo li {
+  margin: 0.3rem 0;
+  font-size: 1rem;
+}
+
+.checkbox-verificado {
+  font-size: 0.85rem;
+  color: #888;
+  margin-top: 0.5rem;
+  display: block;
+}
+
+/* Filtros */
+.comentarios-filtros {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.comentarios-filtros>div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.comentarios-filtros label {
+  font-weight: 500;
+  color: #333;
+}
+
+.comentarios-filtros select {
+  padding: 0.4rem 0.6rem;
+  font-size: 0.95rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: white;
+  transition: border 0.2s ease;
+}
+
+.comentarios-filtros select:focus {
+  outline: none;
+  border-color: var(--p4, #e0b000);
+  box-shadow: 0 0 0 2px rgba(224, 176, 0, 0.2);
+}
+
+.comentarios-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.comentario-item {
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 1.2rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+
+.comentario-topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comentario-estrelas {
+  color: gold;
+}
+
+.comentario-data {
+  font-size: 0.85rem;
+  color: #999;
+  margin-bottom: 0.5rem;
+}
+
+/* Novo comentário form */
+.novo-comentario-form {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-input,
+.form-textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.nota-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.estrela {
+  font-size: 20px;
+  cursor: pointer;
+  color: #ddd;
+}
+
+.estrela-ativa {
+  color: #f5a623;
+}
+
+.botao-submit {
+  background: #f5a623;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .comentarios-filtros {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .comentarios-filtros>div {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .comentarios-filtros select {
+    width: 100%;
+  }
+
+  .avaliacao-resumo {
+    text-align: left;
+    margin-top: 1rem;
+  }
+}
+
+.novo-comentario-form {
+  margin-top: 2rem;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.novo-comentario-form h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.novo-comentario-form input,
+.novo-comentario-form textarea,
+.novo-comentario-form select {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+  background: #fdfdfd;
+  transition: border 0.2s ease;
+}
+
+.novo-comentario-form input:focus,
+.novo-comentario-form textarea:focus,
+.novo-comentario-form select:focus {
+  border-color: var(--p4, #e0b000);
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(224, 176, 0, 0.2);
+}
+
+.novo-comentario-form button {
+  padding: 0.9rem;
+  background-color: #f5a623;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}

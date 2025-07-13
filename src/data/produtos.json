@@ -1,0 +1,172 @@
+{
+  "bicicletas": [
+    {
+      "nome": "Vireon Element",
+      "preco": "R$ 17.000",
+      "imagem": "element.jpg",
+      "descricao": "A Vireon Element é a escolha certa para quem busca mobilidade com estilo. Com quadro leve em alumínio 7005, freios a disco e câmbio de 21 velocidades, ela oferece desempenho e controle para o uso urbano e passeios mais longos. Design moderno, componentes de qualidade e conforto em cada pedalada.",
+      "caracteristicas": [
+        { "icone": "eletrica.svg", "descricao": "Motor Elétrico Mid-Drive" },
+        { "icone": "carbono.svg", "descricao": "Quadro em Alumínio 7005" },
+        { "icone": "velocidade.svg", "descricao": "70 km/h" },
+        {
+          "icone": "rastreador.svg",
+          "descricao": "Rastreador Integrado via App"
+        }
+      ]
+    },
+    {
+      "nome": "Vireon Ignite",
+      "preco": "R$ 35.000",
+      "imagem": "ignite.jpg",
+      "descricao": "Potente, leve e pronta para qualquer desafio. A Vireon Ignite conta com motor central de alto desempenho, quadro em fibra de carbono e componentes premium para entregar uma experiência de pedalada única. Ideal para quem busca performance, autonomia e tecnologia de ponta em uma e-bike.",
+      "caracteristicas": [
+        { "icone": "eletrica.svg", "descricao": "Motor Elétrico Brose Drive" },
+        { "icone": "carbono.svg", "descricao": "Quadro em Fibra de Carbono" },
+        { "icone": "velocidade.svg", "descricao": "90 km/h" },
+        {
+          "icone": "rastreador.svg",
+          "descricao": "Rastreador Integrado via App"
+        }
+      ]
+    },
+    {
+      "nome": "Vireon Nebula",
+      "preco": "R$ 64.000",
+      "imagem": "nebula.jpg",
+      "descricao": "A Vireon Nebula é a bicicleta para quem busca o máximo em desempenho, tecnologia e design. Com um quadro em fibra de carbono ultra-leve e rodas de última geração, ela oferece uma performance sem igual. Seu design exclusivo na cor branca, elegante e sofisticada, é o toque final para quem não se contenta com menos. Criada para os ciclistas mais exigentes, é a escolha ideal para quem deseja dominar as ruas com estilo e potência.",
+      "caracteristicas": [
+        { "icone": "eletrica.svg", "descricao": "Motor Bosh Performance" },
+        { "icone": "carbono.svg", "descricao": "Quadro em Fibra de Carbono" },
+        { "icone": "velocidade.svg", "descricao": "100 km/h" },
+        {
+          "icone": "rastreador.svg",
+          "descricao": "Rastreador Integrado via App"
+        }
+      ]
+    },
+    {
+      "nome": "Vireon Aura",
+      "preco": "R$ 37.500",
+      "imagem": "aura.jpg",
+      "descricao": "A Vireon Aura é a bicicleta elétrica pensada para quem enxerga a cidade como uma extensão do seu estilo. Leve, elegante e poderosa, ela combina tecnologia de ponta com um visual minimalista que chama atenção por onde passa. Com seu quadro em fibra de carbono ultra-leve e acabamento refinado, a Aura flutua pelas ruas com uma suavidade impressionante. A cor grafite fosca, com detalhes metálicos sutis, transmite modernidade e personalidade — perfeita para quem valoriza design tanto quanto desempenho.",
+      "caracteristicas": [
+        { "icone": "eletrica.svg", "descricao": "Motor Bafang Deluxe" },
+        {
+          "icone": "carbono.svg",
+          "descricao": "Quadro em Fibra de Carbono Monobloco"
+        },
+        { "icone": "velocidade.svg", "descricao": "85 km/h" },
+        {
+          "icone": "rastreador.svg",
+          "descricao": "Rastreador Integrado via App"
+        }
+      ]
+    },
+    {
+      "nome": "Vireon Flux",
+      "preco": "R$ 64.000",
+      "imagem": "flux.jpg",
+      "descricao": "A Vireon Flux é a fusão perfeita entre potência e elegância. Criada para quem exige mais da mobilidade elétrica, ela entrega uma experiência de pedal imersiva, envolvente e cheia de atitude. Com um visual marcante e aerodinâmico, a Flux transforma cada trajeto em um momento de puro controle e fluidez.",
+      "caracteristicas": [
+        {
+          "icone": "eletrica.svg",
+          "descricao": "Motor Bosch Performance Line CX"
+        },
+        {
+          "icone": "carbono.svg",
+          "descricao": "Quadro em Fibra de Carbono e Grafeno"
+        },
+        { "icone": "velocidade.svg", "descricao": "100 km/h" },
+        {
+          "icone": "rastreador.svg",
+          "descricao": "Rastreador Integrado via App"
+        }
+      ]
+    },
+    {
+      "nome": "Vireon Magic",
+      "preco": "R$ 35.000",
+      "imagem": "magic.jpg",
+      "descricao": "A Vireon Magic é liberdade com personalidade. Criada para quem busca uma bicicleta elétrica leve, estilosa e funcional, ela transforma cada deslocamento em uma experiência leve, silenciosa e surpreendentemente prazerosa.",
+      "caracteristicas": [
+        {
+          "icone": "eletrica.svg",
+          "descricao": "Motor Bafang 250w"
+        },
+        {
+          "icone": "carbono.svg",
+          "descricao": "Quadro em Alumínio Premium 6061"
+        },
+        { "icone": "velocidade.svg", "descricao": "100 km/h" },
+        {
+          "icone": "rastreador.svg",
+          "descricao": "Rastreador Integrado via App"
+        }
+      ]
+    },
+    {
+      "nome": "Vireon Nero",
+      "preco": "R$ 20.000",
+      "imagem": "Nero.jpg",
+      "descricao": "A Vireon Nero é a bicicleta elétrica pensada para quem busca um equilíbrio perfeito entre potência e sofisticação. Com um visual impecável, completamente em preto fosco, ela reflete o que há de mais moderno em design e tecnologia.",
+      "caracteristicas": [
+        {
+          "icone": "eletrica.svg",
+          "descricao": "Motor Bafang 500w"
+        },
+        {
+          "icone": "carbono.svg",
+          "descricao": "Quadro em Fibra de Carbono"
+        },
+        { "icone": "velocidade.svg", "descricao": "100 km/h" },
+        {
+          "icone": "rastreador.svg",
+          "descricao": "Rastreador Integrado via App"
+        }
+      ]
+    },
+    {
+      "nome": "Vireon Pulse",
+      "preco": "R$ 70.000",
+      "imagem": "pulse.jpg",
+      "descricao": "A Vireon Pulse é para quem busca mais do que uma simples bicicleta elétrica — ela é a resposta para quem quer potência, eficiência e design inovador. Com um visual arrojado e esportivo, a Pulse está pronta para desbravar tanto as ruas da cidade quanto trilhas mais exigentes.",
+      "caracteristicas": [
+        {
+          "icone": "eletrica.svg",
+          "descricao": "Motor Bafang M400 750W"
+        },
+        {
+          "icone": "carbono.svg",
+          "descricao": "Quadro em Alumínio 6061 com soldagem TIG "
+        },
+        { "icone": "velocidade.svg", "descricao": "160 km/h" },
+        {
+          "icone": "rastreador.svg",
+          "descricao": "Rastreador Integrado via App"
+        }
+      ]
+    },
+    {
+      "nome": "Vireon Veloce",
+      "preco": "R$ 100.000",
+      "imagem": "voloce.jpg",
+      "descricao": "A Vireon Veloce foi feita para quem vive em movimento. Ágil, leve e com um design minimalista e sofisticado, ela oferece uma experiência de pedal fluida e precisa, ideal para quem quer atravessar a cidade com estilo e sem perder tempo.",
+      "caracteristicas": [
+        {
+          "icone": "eletrica.svg",
+          "descricao": "Motor Mahle X35+ 250W"
+        },
+        {
+          "icone": "carbono.svg",
+          "descricao": "Quadro em Alumínio escovado com soldas polidas "
+        },
+        { "icone": "velocidade.svg", "descricao": "180 km/h" },
+        {
+          "icone": "rastreador.svg",
+          "descricao": "Rastreador Integrado via App"
+        }
+      ]
+    }
+  ]
+}

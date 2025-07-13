@@ -1,0 +1,180 @@
+:root {
+  /* Escala de cinzas */
+  --c12: #000000;
+  --c11: #111111;
+  --c10: #2E2E2E;
+  --c9: #404040;
+  --c8: #595959;
+  --c7: #717171;
+  --c6: #9C9C9C;
+  --c5: #B2B2B2;
+  --c4: #CCCCCC;
+  --c3: #DEDEDE;
+  --c2: #EDEDED;
+  --c1: #F7F7F7;
+  --w: #FFFFFF;
+
+  /* Paleta dourada */
+  --p5: #332200;
+  --p4: #664400;
+  --p3: #A66F00;
+  --p2: #E4A30B;
+  --p1: #FFBB00;
+  --p0: #FFBF00
+}
+
+
+/* ===== UTILITÁRIOS DE COR ===== */
+
+
+/* Texto - Escala de cinza */
+.cor-c12 {
+  color: var(--c12);
+}
+
+.cor-c11 {
+  color: var(--c11);
+}
+
+.cor-c10 {
+  color: var(--c10);
+}
+
+.cor-c9 {
+  color: var(--c9);
+}
+
+.cor-c8 {
+  color: var(--c8);
+}
+
+.cor-c7 {
+  color: var(--c7);
+}
+
+.cor-c6 {
+  color: var(--c6);
+}
+
+.cor-c5 {
+  color: var(--c5);
+}
+
+.cor-c4 {
+  color: var(--c4);
+}
+
+.cor-c3 {
+  color: var(--c3);
+}
+
+.cor-c2 {
+  color: var(--c2);
+}
+
+.cor-c1 {
+  color: var(--c1);
+}
+
+.cor-branco {
+  color: var(--w);
+}
+
+/* Fundo - Escala de cinza */
+.bg-c12 {
+  background-color: var(--c12);
+}
+
+.bg-c11 {
+  background-color: var(--c11);
+}
+
+.bg-c10 {
+  background-color: var(--c10);
+}
+
+.bg-c9 {
+  background-color: var(--c9);
+}
+
+.bg-c8 {
+  background-color: var(--c8);
+}
+
+.bg-c7 {
+  background-color: var(--c7);
+}
+
+.bg-c6 {
+  background-color: var(--c6);
+}
+
+.bg-c5 {
+  background-color: var(--c5);
+}
+
+.bg-c4 {
+  background-color: var(--c4);
+}
+
+.bg-c3 {
+  background-color: var(--c3);
+}
+
+.bg-c2 {
+  background-color: var(--c2);
+}
+
+.bg-c1 {
+  background-color: var(--c1);
+}
+
+.bg-branco {
+  background-color: var(--w);
+}
+
+/* Texto - Paleta dourada */
+.cor-p5 {
+  color: var(--p5);
+}
+
+.cor-p4 {
+  color: var(--p4);
+}
+
+.cor-p3 {
+  color: var(--p3);
+}
+
+.cor-p2 {
+  color: var(--p2);
+}
+
+.cor-p1 {
+  color: var(--p1);
+}
+
+.cor.p0 {
+  color: var(--p0);
+}
+
+/* Fundo - Paleta dourada */
+.bg-p5 {
+  background-color: var(--p5);
+}
+
+.bg-p4 {
+  background-color: var(--p4);
+}
+
+.bg-p3 {
+  background-color: var(--p3);
+}
+
+.bg-p2 {
+  background-color: var(--p2);
+}
+
+.bg-p1 {
+  background-color: var(--p1);
+}

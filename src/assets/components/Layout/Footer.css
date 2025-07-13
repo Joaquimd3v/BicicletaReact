@@ -1,0 +1,163 @@
+.footer-bg {
+  background-color: var(--c12);
+  color: #FFF;
+  padding: 60px 0 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  margin-top: 200px;
+}
+
+.footer-conteudo h3 {
+  font-size: 18px;
+  margin-bottom: 25px;
+  color: #FFF;
+  position: relative;
+}
+
+.footer-conteudo h3::before {
+  content: '';
+  width: 30px;
+  height: 3px;
+  background: #FFBB00;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+
+.footer-conteudo p {
+  color: #aaa;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.icones {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.icones a {
+  color: #FFF;
+  background: #2c3e50;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+
+.icones a:hover {
+  background: #FFBB00;
+  transform: translateY(-3px);
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+}
+
+.footer-links a {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #FFBB00;
+}
+
+.footer-form {
+  display: flex;
+  margin: 20px 0;
+}
+
+.footer-form input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #333;
+  background: #222;
+  color: #FFF;
+  border-radius: 4px 0 0 4px;
+}
+
+.botao-form {
+  background: #FFBB00;
+  color: #111;
+  border: none;
+  padding: 0 15px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+  transition: background 0.3s;
+}
+
+.botao-form:hover {
+  background: #e6a800;
+}
+
+.footer-local ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-local li {
+  color: #aaa;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.footer-local a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.direito p {
+  color: #666;
+  font-size: 14px;
+}
+
+.direito span {
+  color: #FFBB00;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-noticias {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-noticias {
+    grid-column: span 1;
+  }
+}

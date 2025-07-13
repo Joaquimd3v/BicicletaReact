@@ -1,0 +1,148 @@
+{
+  "bicicletas": [
+    {
+      "nome": "Vireon Element",
+      "preco": "R$ 17.000",
+      "imagem": "element.jpg",
+      "caracteristicas": [
+        { "icone": "eletrica.svg", "descricao": "Motor Elétrico Mid-Drive" },
+        { "icone": "carbono.svg", "descricao": "Quadro em Alumínio 7005" },
+        { "icone": "velocidade.svg", "descricao": "70 km/h" },
+        {
+          "icone": "rastreador.svg",
+          "descricao": "Rastreador Integrado via App"
+        }
+      ]
+    },
+    {
+      "nome": "Vireon Ignite",
+      "preco": "R$ 35.000",
+      "imagem": "ignite.jpg",
+      "caracteristicas": [
+        { "icone": "eletrica.svg", "descricao": "Motor Elétrico Brose Drive" },
+        { "icone": "carbono.svg", "descricao": "Quadro em Fibra de Carbono" },
+        { "icone": "velocidade.svg", "descricao": "90 km/h" },
+        {
+          "icone": "rastreador.svg",
+          "descricao": "Rastreador Integrado via App"
+        }
+      ]
+    },
+    {
+      "nome": "Vireon Nebula",
+      "preco": "R$ 64.000",
+      "imagem": "nebula.jpg",
+      "caracteristicas": [
+        { "icone": "eletrica.svg", "descricao": "Motor Bosh Performance" },
+        { "icone": "carbono.svg", "descricao": "Quadro em Fibra de Carbono" },
+        { "icone": "velocidade.svg", "descricao": "100 km/h" },
+        {
+          "icone": "rastreador.svg",
+          "descricao": "Rastreador Integrado via App"
+        }
+      ]
+    },
+    {
+      "nome": "Vireon Aura",
+      "preco": "R$ 37.500",
+      "imagem": "aura.jpg",
+      "caracteristicas": [
+        { "icone": "eletrica.svg", "descricao": "Motor Bafang Deluxe" },
+        {
+          "icone": "carbono.svg",
+          "descricao": "Quadro em Fibra de Carbono Monobloco"
+        },
+        { "icone": "velocidade.svg", "descricao": "85 km/h" },
+        {
+          "icone": "rastreador.svg",
+          "descricao": "Rastreador Integrado via App"
+        }
+      ]
+    },
+    {
+      "nome": "Vireon Flux",
+      "preco": "R$ 64.000",
+      "imagem": "flux.jpg",
+      "caracteristicas": [
+        {
+          "icone": "eletrica.svg",
+          "descricao": "Motor Bosch Performance Line CX"
+        },
+        {
+          "icone": "carbono.svg",
+          "descricao": "Quadro em Fibra de Carbono e Grafeno"
+        },
+        { "icone": "velocidade.svg", "descricao": "100 km/h" },
+        {
+          "icone": "rastreador.svg",
+          "descricao": "Rastreador Integrado via App"
+        }
+      ]
+    },
+    {
+      "nome": "Vireon Magic",
+      "preco": "R$ 35.000",
+      "imagem": "magic.jpg",
+      "caracteristicas": [
+        { "icone": "eletrica.svg", "descricao": "Motor Bafang 250w" },
+        {
+          "icone": "carbono.svg",
+          "descricao": "Quadro em Alumínio Premium 6061"
+        },
+        { "icone": "velocidade.svg", "descricao": "100 km/h" },
+        {
+          "icone": "rastreador.svg",
+          "descricao": "Rastreador Integrado via App"
+        }
+      ]
+    },
+    {
+      "nome": "Vireon Nero",
+      "preco": "R$ 20.000",
+      "imagem": "Nero.jpg",
+      "caracteristicas": [
+        { "icone": "eletrica.svg", "descricao": "Motor Bafang 500w" },
+        { "icone": "carbono.svg", "descricao": "Quadro em Fibra de Carbono" },
+        { "icone": "velocidade.svg", "descricao": "100 km/h" },
+        {
+          "icone": "rastreador.svg",
+          "descricao": "Rastreador Integrado via App"
+        }
+      ]
+    },
+    {
+      "nome": "Vireon Pulse",
+      "preco": "R$ 70.000",
+      "imagem": "pulse.jpg",
+      "caracteristicas": [
+        { "icone": "eletrica.svg", "descricao": "Motor Bafang M400 750W" },
+        {
+          "icone": "carbono.svg",
+          "descricao": "Quadro em Alumínio 6061 com soldagem TIG"
+        },
+        { "icone": "velocidade.svg", "descricao": "160 km/h" },
+        {
+          "icone": "rastreador.svg",
+          "descricao": "Rastreador Integrado via App"
+        }
+      ]
+    },
+    {
+      "nome": "Vireon Veloce",
+      "preco": "R$ 100.000",
+      "imagem": "voloce.jpg",
+      "caracteristicas": [
+        { "icone": "eletrica.svg", "descricao": "Motor Mahle X35+ 250W" },
+        {
+          "icone": "carbono.svg",
+          "descricao": "Quadro em Alumínio escovado com soldas polidas"
+        },
+        { "icone": "velocidade.svg", "descricao": "180 km/h" },
+        {
+          "icone": "rastreador.svg",
+          "descricao": "Rastreador Integrado via App"
+        }
+      ]
+    }
+  ]
+}
