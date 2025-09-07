@@ -136,7 +136,7 @@ function DetalheBicicleta() {
               </div>
             </div>
 
-            <h2 className="font-1-xs cor-0">Informações</h2>
+            <h2 className="font-1-xs cor-c6">Informações</h2>
             <ul className="bicicleta-informacoes">
               {bicicleta.informacoes.map((info, index) => (
                 <li key={index}>
