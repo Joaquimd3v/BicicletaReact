@@ -82,9 +82,6 @@
   background-color: currentColor;
 }
 
-.meu-link:hover {
-  color: var(--cor-0);
-}
 
 .titulo-bg {
   padding-top: 60px;

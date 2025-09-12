@@ -9,13 +9,13 @@ export default function Parceiros() {
       </h2>
       <ul>
         <li>
-          <img src="img/parceiros/caloi-2 1.svg" alt="Caloi" />
+          <img src="img/parceiros/caloi.svg" alt="Caloi" />
         </li>
         <li>
-          <img src="img/parceiros/cannondale-1 1.svg" alt="Cannondale" />
+          <img src="img/parceiros/cannondale.svg" alt="Cannondale" />
         </li>
         <li>
-          <img src="img/parceiros/fuji-bicycles 1.svg" alt="Fuji" />
+          <img src="img/parceiros/fuji.svg" alt="Fuji" />
         </li>
         <li>
           <img src="img/parceiros/giant-bicycles 1.svg" alt="Giant" />
