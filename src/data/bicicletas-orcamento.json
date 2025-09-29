@@ -2,7 +2,7 @@
   "bicicletas": [
     {
       "nome": "Vireon Element",
-      "preco": "R$ 17.000",
+      "preco": "R$ 1.499,90",
       "imagem": "element.jpg",
       "caracteristicas": [
         { "icone": "eletrica.svg", "descricao": "Motor Elétrico Mid-Drive" },

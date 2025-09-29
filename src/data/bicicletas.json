@@ -2,18 +2,18 @@
   "bicicletas": [
     {
       "nome": "Vireon Pulse",
-      "preco": "R$ 70.000",
+      "preco": "R$ 1.499,90",
       "imagens": [
         "bicicletas-comprar/pulse/pulse.jpg",
         "bicicletas-comprar/pulse/pulse-1.png",
         "bicicletas-comprar/pulse/pulse-3.png",
         "bicicletas-comprar/pulse/pulse-2.png"
       ],
-      "descricao": "A Vireon Element é a escolha certa para quem busca mobilidade com estilo. Com quadro leve em alumínio 7005, freios a disco e câmbio de 21 velocidades, ela oferece desempenho e controle para o uso urbano e passeios mais longos. Design moderno, componentes de qualidade e conforto em cada pedalada.",
+      "descricao": "A Vireon Pulse é a bicicleta ideal para quem está começando no universo das e-bikes e deseja unir praticidade, desempenho e preço acessível. Com quadro leve em alumínio 7005, freios a disco e câmbio de 16 marchas, oferece excelente controle em diferentes terrenos. Seu design moderno garante estilo em cada passeio, enquanto o sistema elétrico de alta autonomia proporciona até 120 km por carga, tornando-a perfeita tanto para deslocamentos diários quanto para passeios mais longos. Uma escolha inteligente para quem busca mobilidade, economia e conforto em duas rodas.",
       "informacoes": [
         {
           "icone": "eletrica.svg",
-          "titulo": "Motor Elétrico",
+          "titulo": "Transmissão Shimano de 21 velocidades",
           "descricao": "Sistema elétrico de alto desempenho com autonomia de até 120 km por carga, ideal para trajetos longos."
         },
         {
@@ -52,7 +52,7 @@
         "bicicletas-comprar/nero/Nero-3.png",
         "bicicletas-comprar/nero/Nero-4.png"
       ],
-      "descricao": "A Vireon Nero é a bicicleta elétrica pensada para quem busca um equilíbrio perfeito entre potência e sofisticação. Com um visual impecável em preto fosco e quadro em fibra de carbono, ela oferece o que há de mais moderno em design, leveza e desempenho.",
+      "descricao": "A Vireon Nero combina potência e sofisticação em um só modelo. Projetada para quem busca esportividade e estilo, possui quadro em fibra de carbono e acabamento premium em preto fosco. Seu motor Bafang 500W garante força em subidas e terrenos desafiadores, enquanto a aerodinâmica favorece alta performance. Com velocidade final de até 100 km/h, é perfeita para ciclistas que desejam adrenalina sem abrir mão da segurança. Compacta, resistente e repleta de tecnologia, a Nero transforma cada pedalada em uma experiência de luxo sobre duas rodas.",
       "informacoes": [
         {
           "icone": "eletrica.svg",
@@ -95,7 +95,7 @@
         "bicicletas-comprar/nebula/nebula-3.png",
         "bicicletas-comprar/nebula/nebula-4.png"
       ],
-      "descricao": "A Vireon Nebula é a bicicleta para quem busca o máximo em desempenho, tecnologia e design. Com um quadro em fibra de carbono ultra-leve e rodas de última geração, ela entrega uma performance incomparável. Seu design branco elegante completa o visual premium, ideal para ciclistas exigentes.",
+      "descricao": "A Vireon Nebula é a tradução da performance absoluta em uma bicicleta elétrica. Desenvolvida para ciclistas que buscam o máximo em tecnologia, conta com quadro em fibra de carbono ultra-leve, design sofisticado em branco premium e rodas de última geração. Seu motor Bosch Performance entrega potência e eficiência com baixo consumo, ideal para trajetos urbanos e longas aventuras. Combinando velocidade, leveza e conectividade, a Nebula oferece uma experiência incomparável em cada pedalada, tornando-se o modelo perfeito para quem exige exclusividade e inovação.",
       "informacoes": [
         {
           "icone": "eletrica.svg",
@@ -138,7 +138,7 @@
         "bicicletas-comprar/element/element-3.png",
         "bicicletas-comprar/element/element-4.png"
       ],
-      "descricao": "A Vireon Element é a escolha certa para quem busca mobilidade com estilo. Com quadro leve em alumínio 7005, freios a disco e câmbio de 21 velocidades, ela oferece desempenho e controle para o uso urbano e passeios mais longos. Design moderno, componentes de qualidade e conforto em cada pedalada.",
+      "descricao": "A Vireon Element é a escolha certa para quem busca mobilidade com estilo e praticidade. Seu quadro leve em alumínio 7005 oferece resistência sem comprometer o conforto, enquanto os freios a disco garantem segurança mesmo em condições mais exigentes. Equipada com motor central de alta eficiência e câmbio de 21 marchas, ela proporciona agilidade no trânsito urbano e desempenho em percursos mistos. Moderna, robusta e versátil, a Element foi criada para quem valoriza desempenho aliado à durabilidade e conforto em cada trajeto.",
       "informacoes": [
         {
           "icone": "eletrica.svg",
@@ -181,7 +181,7 @@
         "bicicletas-comprar/ignite/ignite-3.png",
         "bicicletas-comprar/ignite/ignite-4.png"
       ],
-      "descricao": "Potente, leve e pronta para qualquer desafio. A Vireon Ignite conta com motor central de alto desempenho, quadro em fibra de carbono e componentes premium para entregar uma experiência de pedalada única. Ideal para quem busca performance, autonomia e tecnologia de ponta em uma e-bike.",
+      "descricao": "A Vireon Ignite é potência e leveza em perfeita harmonia. Com motor central de alto desempenho Brose Drive, quadro em fibra de carbono e design agressivo, ela foi projetada para ciclistas que buscam performance de ponta em qualquer terreno. Sua estrutura ultraleve garante agilidade, enquanto os componentes premium asseguram durabilidade e conforto. Capaz de atingir até 90 km/h, é indicada para quem deseja unir adrenalina, autonomia e tecnologia em uma experiência de pedal única. Uma bicicleta feita para desafiar limites.",
       "informacoes": [
         {
           "icone": "eletrica.svg",
@@ -224,7 +224,7 @@
         "bicicletas-comprar/aura/aura-3.png",
         "bicicletas-comprar/aura/aura-4.png"
       ],
-      "descricao": "A Vireon Aura é a bicicleta elétrica pensada para quem enxerga a cidade como uma extensão do seu estilo. Leve, elegante e poderosa, ela combina tecnologia de ponta com um visual minimalista que chama atenção por onde passa. Com seu quadro em fibra de carbono ultra-leve e acabamento refinado, a Aura flutua pelas ruas com uma suavidade impressionante. A cor grafite fosca, com detalhes metálicos sutis, transmite modernidade e personalidade — perfeita para quem valoriza design tanto quanto desempenho.",
+      "descricao": "A Vireon Aura é a bicicleta elétrica criada para quem vê a cidade como um palco de estilo e liberdade. Com um visual minimalista em grafite fosco e quadro em fibra de carbono monobloco, une leveza, resistência e sofisticação em um só design. Seu motor Bafang Deluxe oferece potência suave e contínua, perfeito para percursos urbanos. Elegante e ágil, a Aura pode atingir até 85 km/h, garantindo performance sem perder o conforto. Uma bike pensada para quem valoriza design tanto quanto tecnologia e deseja se destacar nas ruas.",
       "informacoes": [
         {
           "icone": "eletrica.svg",
@@ -267,7 +267,7 @@
         "bicicletas-comprar/flux/flux-3.png",
         "bicicletas-comprar/flux/flux-4.png"
       ],
-      "descricao": "A Vireon Flux é a fusão perfeita entre potência e elegância. Criada para quem exige mais da mobilidade elétrica, ela entrega uma experiência de pedal imersiva, envolvente e cheia de atitude. Com um visual marcante e aerodinâmico, a Flux transforma cada trajeto em um momento de puro controle e fluidez.",
+      "descricao": "A Vireon Flux é a fusão perfeita entre potência, elegância e tecnologia de ponta. Criada para ciclistas exigentes, traz motor Bosch Performance Line CX e quadro inovador em fibra de carbono com grafeno, garantindo rigidez, leveza e durabilidade incomparável. Seu design aerodinâmico transmite esportividade e exclusividade, enquanto a conectividade com rastreamento integrado proporciona segurança total. Com velocidade final de 100 km/h, a Flux é indicada para quem busca ir além do comum e transformar cada pedalada em uma experiência única.",
       "informacoes": [
         {
           "icone": "eletrica.svg",
@@ -310,7 +310,7 @@
         "bicicletas-comprar/magic/magic-3.png",
         "bicicletas-comprar/magic/magic-4.png"
       ],
-      "descricao": "A Vireon Magic é liberdade com personalidade. Criada para quem busca uma bicicleta elétrica leve, estilosa e funcional, ela transforma cada deslocamento em uma experiência leve, silenciosa e surpreendentemente prazerosa.",
+      "descricao": "A Vireon Magic é liberdade com personalidade. Leve, estilosa e funcional, ela foi criada para quem deseja mobilidade elétrica sem abrir mão de design. Seu motor Bafang 250W oferece assistência suave e confiável para o dia a dia, enquanto o quadro em alumínio 6061 garante durabilidade com conforto. Com linhas modernas e acabamento refinado, a Magic transforma deslocamentos urbanos em experiências silenciosas e prazerosas. Ágil e conectada, é a escolha perfeita para quem busca praticidade e estilo em cada pedalada.",
       "informacoes": [
         {
           "icone": "motor.svg",
@@ -329,63 +329,20 @@
         },
         {
           "icone": "rastreador.svg",
-          "titulo": "Rastreador Integrado via App",
-          "descricao": "Segurança e conectividade em tempo real para você pedalar com tranquilidade."
+          "titulo": "Rastreador Integrado",
+          "descricao": "Sistema de rastreamento integrado para segurança e tranquilidade em cada deslocamento."
         }
       ],
       "fichaTecnica": {
-        "Peso": "7.1 kg",
-        "Altura": "57 cm",
-        "Largura": "113 cm",
-        "Profundidade": "9.3 cm",
-        "Marchas": "21",
+        "Peso": "7.2 kg",
+        "Altura": "60 cm",
+        "Largura": "116 cm",
+        "Profundidade": "10 cm",
+        "Marchas": "18",
         "Roda": "29"
       },
-      "estoque": 12,
-      "entrega": "entrega em até 5 dias"
-    },
-    {
-      "nome": "Vireon Veloce",
-      "preco": "R$ 100.000",
-      "imagens": [
-        "bicicletas-comprar/veloce/veloce-1.jpg",
-        "bicicletas-comprar/veloce/veloce-2.png",
-        "bicicletas-comprar/veloce/veloce-3.png",
-        "bicicletas-comprar/veloce/veloce-4.png"
-      ],
-      "descricao": "A Vireon Veloce foi feita para quem vive em movimento. Ágil, leve e com um design minimalista e sofisticado, ela oferece uma experiência de pedal fluida e precisa, ideal para quem quer atravessar a cidade com estilo e sem perder tempo.",
-      "informacoes": [
-        {
-          "icone": "eletrica.svg",
-          "titulo": "Motor Mahle X35+ 250W",
-          "descricao": "Motor compacto e eficiente que garante uma assistência elétrica natural e responsiva, perfeito para deslocamentos urbanos de alta performance."
-        },
-        {
-          "icone": "carbono.svg",
-          "titulo": "Alumínio Escovado Premium",
-          "descricao": "Quadro em alumínio 6061 escovado com soldas polidas, unindo leveza, resistência e um acabamento refinado e moderno."
-        },
-        {
-          "icone": "velocidade.svg",
-          "titulo": "180 km/h",
-          "descricao": "Velocidade máxima impressionante, feita para quem busca agilidade extrema e performance no mais alto nível."
-        },
-        {
-          "icone": "rastreador.svg",
-          "titulo": "Rastreador Integrado via App",
-          "descricao": "Sistema de rastreamento integrado com tecnologia avançada para maior segurança, controle e tranquilidade."
-        }
-      ],
-      "fichaTecnica": {
-        "Peso": "6.5 kg",
-        "Altura": "56 cm",
-        "Largura": "112 cm",
-        "Profundidade": "9 cm",
-        "Marchas": "20",
-        "Roda": "28"
-      },
-      "estoque": 5,
-      "entrega": "entrega em 7 dias"
+      "estoque": 11,
+      "entrega": "entrega em até 7 dias"
     }
   ]
 }

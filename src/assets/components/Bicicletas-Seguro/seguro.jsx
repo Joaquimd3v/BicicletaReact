@@ -8,20 +8,18 @@ const Seguro = () => {
       <div className="seguro container">
         <div className="seguro-imagem">
           <img
-            src="/BicicletaReact/img/Atores/NEYMAR.png"
+            src="/BicicletaReact/img/Atores/ciclita.jpg"
             alt="Garoto Propaganda Vireon"
           />
         </div>
         <div className="seguro-conteudo">
           <h2 className="font-1-xxl cor-branco">
-            Protegido como um craque em campo
+            Sua liberdade em duas rodas, nossa garantia.
             <span className="cor-p1">.</span>
           </h2>
           <p className="font-2-l cor-c5">
-            Com o Neymar como nosso embaixador, garantimos a mesma proteção que
-            um craque precisa dentro e fora das quadras. Nosso seguro para
-            bicicletas é pensado para quem leva o pedal a sério e não abre mão
-            da segurança.
+            A liberdade de pedalar sem limites é o que nos move. Nosso seguro para bicicletas foi criado para que você explore cada novo caminho com a certeza de que seu equipamento está protegido. Seja na cidade ou em trilhas 
+            desafiantes, pedale com a confiança de que cuidamos do seu bem mais valioso.
           </p>
           <Link to="/seguro" className="botao">
             Conheça Mais
