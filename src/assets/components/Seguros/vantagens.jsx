@@ -16,7 +16,7 @@ const Vantagens = () => {
 
             </h3>
             <p className="font-2-s cor-c5">
-              Do câmbio ao freio, oferecemos suporte completo em caso de falhas ou defeitos de fabricação.
+              Do câmbio ao freio, oferecemos suporte completo em caso de falhas ou defeitos de fabricação.  
             </p>
           </li>
           <li>

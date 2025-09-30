@@ -88,24 +88,25 @@
     },
     {
       "nome": "Vireon Nebula",
-      "preco": "R$ 64.000",
+      "preco": "R$ 2.399,00",
       "imagens": [
         "bicicletas-comprar/nebula/nebula-1.jpg",
         "bicicletas-comprar/nebula/nebula-2.png",
         "bicicletas-comprar/nebula/nebula-3.png",
-        "bicicletas-comprar/nebula/nebula-4.png"
+        "bicicletas-comprar/nebula/nebula-4.png",
+        "bicicletas-comprar/nebula/nebula-5.png"
       ],
-      "descricao": "A Vireon Nebula é a tradução da performance absoluta em uma bicicleta elétrica. Desenvolvida para ciclistas que buscam o máximo em tecnologia, conta com quadro em fibra de carbono ultra-leve, design sofisticado em branco premium e rodas de última geração. Seu motor Bosch Performance entrega potência e eficiência com baixo consumo, ideal para trajetos urbanos e longas aventuras. Combinando velocidade, leveza e conectividade, a Nebula oferece uma experiência incomparável em cada pedalada, tornando-se o modelo perfeito para quem exige exclusividade e inovação.",
+      "descricao": "A Vireon Nebula é a definição de performance em uma bicicleta de alto padrão. Pensada para ciclistas que valorizam tecnologia, design e leveza, ela traz um quadro em fibra de carbono ultra-leve, acabamento sofisticado em branco premium e rodas de última geração. Equipada com pedivela de alumínio forjado, proporciona uma pedalada precisa, eficiente e responsiva, ideal tanto para trajetos urbanos quanto para longas jornadas. Combinando agilidade, conforto e estética refinada, a Nebula entrega uma experiência única a cada volta, sendo a escolha perfeita para quem busca exclusividade sem abrir mão da performance.",
       "informacoes": [
         {
           "icone": "eletrica.svg",
-          "titulo": "Motor Elétrico",
-          "descricao": "Equipada com motor Bosch Performance, entrega potência com extrema eficiência energética para qualquer trajeto."
+          "titulo": "Pedivela de alumínio forjado",
+          "descricao": "Construído em alumínio forjado de alta resistência, o pedivela oferece leveza, durabilidade e excelente transferência de potência. Ideal para pedais mais precisos e eficientes, garante uma pedalada suave e robusta mesmo nas condições mais exigentes. Perfeito para quem busca desempenho e confiabilidade nas trilhas ou no asfalto."
         },
         {
           "icone": "velocidade.svg",
-          "titulo": "100 km/h",
-          "descricao": "Velocidade final de até 100 km/h com estabilidade e controle, mesmo em altas rotações."
+          "titulo": "50 km/h",
+          "descricao": "Velocidade final de até 50 km/h com estabilidade e controle, mesmo em altas rotações."
         },
         {
           "icone": "rastreador.svg",

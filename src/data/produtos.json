@@ -32,7 +32,7 @@
       "caracteristicas": [
         { "icone": "eletrica.svg", "descricao": "Pedivela de alumínio forjado" },
         { "icone": "carbono.svg", "descricao": "Quadro em Fibra de Carbono" },
-        { "icone": "velocidade.svg", "descricao": "35 km/h" },
+        { "icone": "velocidade.svg", "descricao": "50 km/h" },
         { "icone": "rastreador.svg", "descricao": "Rastreador Integrado via App" }
       ]
     },
