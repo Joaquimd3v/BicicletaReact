@@ -12,10 +12,11 @@ const Vantagens = () => {
           <li>
             <img src="./img/icones/eletrica.svg" alt="" />
             <h3 className="font-1-l cor-branco">
-              Cobertura para componentes elétricos.
+              Cobertura para componentes mecânicos.
+
             </h3>
             <p className="font-2-s cor-c5">
-              Do motor à bateria, oferecemos suporte completo em caso de falhas.
+              Do câmbio ao freio, oferecemos suporte completo em caso de falhas ou defeitos de fabricação.
             </p>
           </li>
           <li>

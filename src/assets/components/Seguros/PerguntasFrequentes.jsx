@@ -33,23 +33,22 @@ const PerguntasFrequentes = () => {
     {
       pergunta: "Qual o material das bicicletas?",
       resposta:
-        "Trabalhamos com quadros em carbono e alumínio premium, que oferecem mais leveza, resistência e melhor performance.",
+        "Trabalhamos com quadros em aço e alumínio, garantindo resistência, conforto e excelente custo-benefício.",
     },
     {
-      pergunta: "As bicicletas são elétricas?",
+      pergunta: "Vocês ainda trabalham com bicicletas elétricas?",
       resposta:
-        "Sim. Todos os nossos modelos são elétricos, projetados para oferecer desempenho, conforto e assistência inteligente em qualquer trajeto.",
+        "Atualmente, não. Focamos exclusivamente em bicicletas convencionais para tornar nossos produtos mais acessíveis e atender melhor à realidade do ciclista brasileiro.",
     },
     {
       pergunta: "Como funciona a garantia?",
       resposta:
-        "Oferecemos garantia para o quadro, componentes e parte elétrica. O prazo varia conforme o modelo, mas todos contam com suporte técnico especializado.",
+        "Todas as bicicletas têm garantia de fábrica para o quadro e componentes. O prazo pode variar de acordo com o modelo e a marca, mas você conta com todo o nosso suporte técnico.",
     },
     {
-      pergunta:
-        "Vocês trabalham com bicicletas convencionais (sem motor elétrico)?",
+      pergunta: "As bicicletas são novas ou usadas?",
       resposta:
-        "Atualmente, oferecemos apenas modelos elétricos. No entanto, já estamos desenvolvendo novas linhas e em breve teremos bicicletas convencionais disponíveis em nosso catálogo.",
+        "Todos os nossos modelos são novos, com garantia e nota fiscal. Trabalhamos apenas com produtos de qualidade e procedência confiável.",
     },
   ];
 

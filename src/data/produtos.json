@@ -8,7 +8,7 @@
       "caracteristicas": [
         { "icone": "eletrica.svg", "descricao": "Transmissão Shimano de 21 velocidades" },
         { "icone": "carbono.svg", "descricao": "Quadro em Alumínio 7005" },
-        { "icone": "velocidade.svg", "descricao": "25 km/h" },
+        { "icone": "velocidade.svg", "descricao": "40 km/h" },
         { "icone": "rastreador.svg", "descricao": "Rastreador Integrado via App" }
       ]
     },
@@ -20,7 +20,7 @@
       "caracteristicas": [
         { "icone": "eletrica.svg", "descricao": "Câmbio traseiro Shimano Tourney" },
         { "icone": "carbono.svg", "descricao": "Quadro em Fibra de Carbono" },
-        { "icone": "velocidade.svg", "descricao": "30 km/h" },
+        { "icone": "velocidade.svg", "descricao": "45 km/h" },
         { "icone": "rastreador.svg", "descricao": "Rastreador Integrado via App" }
       ]
     },

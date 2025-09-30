@@ -131,19 +131,20 @@
     },
     {
       "nome": "Vireon Element",
-      "preco": "R$ 17.000",
+      "preco": "R$ 1.099,00",
       "imagens": [
         "bicicletas-comprar/element/element-1.jpg",
         "bicicletas-comprar/element/element-2.png",
         "bicicletas-comprar/element/element-3.png",
-        "bicicletas-comprar/element/element-4.png"
+        "bicicletas-comprar/element/element-4.png",
+        "bicicletas-comprar/element/element-5.png"
       ],
       "descricao": "A Vireon Element é a escolha certa para quem busca mobilidade com estilo e praticidade. Seu quadro leve em alumínio 7005 oferece resistência sem comprometer o conforto, enquanto os freios a disco garantem segurança mesmo em condições mais exigentes. Equipada com motor central de alta eficiência e câmbio de 21 marchas, ela proporciona agilidade no trânsito urbano e desempenho em percursos mistos. Moderna, robusta e versátil, a Element foi criada para quem valoriza desempenho aliado à durabilidade e conforto em cada trajeto.",
       "informacoes": [
         {
           "icone": "eletrica.svg",
-          "titulo": "Motor Elétrico Mid-Drive",
-          "descricao": "Motor central de alta eficiência, ideal para equilíbrio e melhor distribuição de peso durante os percursos urbanos e mistos."
+          "titulo": "Transmissão Shimano de 21 Velocidades",
+          "descricao": "Sistema de câmbio versátil que permite trocar marchas com precisão e suavidade, oferecendo desempenho ideal em subidas, descidas e terrenos planos. Perfeita para pedais urbanos e trilhas leves, garantindo controle e conforto em qualquer trajeto."
         },
         {
           "icone": "carbono.svg",
@@ -152,8 +153,8 @@
         },
         {
           "icone": "velocidade.svg",
-          "titulo": "70 km/h",
-          "descricao": "Velocidade final de até 70 km/h, ideal para quem busca agilidade no trânsito urbano e trajetos mistos com segurança."
+          "titulo": "40 km/h",
+          "descricao": "Atinge até 40 km/h com pedalada intensa em terrenos planos. Ideal para ciclistas que buscam desempenho, controle e liberdade em qualquer tipo de trajeto."
         },
         {
           "icone": "rastreador.svg",
@@ -174,19 +175,20 @@
     },
     {
       "nome": "Vireon Ignite",
-      "preco": "R$ 35.000",
+      "preco": "R$ 1.299,00",
       "imagens": [
         "bicicletas-comprar/ignite/ignite-1.jpg",
         "bicicletas-comprar/ignite/ignite-2.png",
         "bicicletas-comprar/ignite/ignite-3.png",
-        "bicicletas-comprar/ignite/ignite-4.png"
+        "bicicletas-comprar/ignite/ignite-4.png",
+        "bicicletas-comprar/ignite/ignite-5.png"
       ],
-      "descricao": "A Vireon Ignite é potência e leveza em perfeita harmonia. Com motor central de alto desempenho Brose Drive, quadro em fibra de carbono e design agressivo, ela foi projetada para ciclistas que buscam performance de ponta em qualquer terreno. Sua estrutura ultraleve garante agilidade, enquanto os componentes premium asseguram durabilidade e conforto. Capaz de atingir até 90 km/h, é indicada para quem deseja unir adrenalina, autonomia e tecnologia em uma experiência de pedal única. Uma bicicleta feita para desafiar limites.",
+      "descricao": "A Vireon Ignite é potência e leveza em perfeita harmonia. Com motor central de alto desempenho Brose Drive, quadro em fibra de carbono e design agressivo, ela foi projetada para ciclistas que buscam performance de ponta em qualquer terreno. Sua estrutura ultraleve garante agilidade, enquanto os componentes premium asseguram durabilidade e conforto. Capaz de atingir até 45 km/h, é indicada para quem deseja unir adrenalina, autonomia e tecnologia em uma experiência de pedal única. Uma bicicleta feita para desafiar limites.",
       "informacoes": [
         {
           "icone": "eletrica.svg",
-          "titulo": "Motor Elétrico Brose Drive",
-          "descricao": "Motor central de alto desempenho, proporcionando torque otimizado e resposta imediata para percursos exigentes."
+          "titulo": "Câmbio Shimano Tourney",
+          "descricao": "O Shimano Tourney é um câmbio traseiro ideal para bicicletas de entrada, oferecendo precisão nas trocas de marcha e durabilidade em pedaladas urbanas ou passeios leves. Projetado para sistemas de 6 ou 7 velocidades, ele entrega um funcionamento suave e confiável, sendo uma ótima escolha para quem busca qualidade sem abrir mão do custo-benefício."
         },
         {
           "icone": "carbono.svg",
@@ -195,8 +197,8 @@
         },
         {
           "icone": "velocidade.svg",
-          "titulo": "90 km/h",
-          "descricao": "Velocidade final impressionante de até 90 km/h, feita para quem busca adrenalina com segurança e controle."
+          "titulo": "45 km/h",
+          "descricao": "Velocidade final impressionante de até 45 km/h, feita para quem busca adrenalina com segurança e controle."
         },
         {
           "icone": "rastreador.svg",

@@ -8,7 +8,7 @@ const Seguro = () => {
       <div className="seguro container">
         <div className="seguro-imagem">
           <img
-            src="/BicicletaReact/img/Atores/ciclita.jpg"
+            src="/BicicletaReact/img/Atores/ciclista.jpg"
             alt="Garoto Propaganda Vireon"
           />
         </div>
