@@ -44,7 +44,7 @@
       "caracteristicas": [
         { "icone": "eletrica.svg", "descricao": "Cassete 7v com trocas suaves" },
         { "icone": "carbono.svg", "descricao": "Quadro em Fibra de Carbono Monobloco" },
-        { "icone": "velocidade.svg", "descricao": "28 km/h" },
+        { "icone": "velocidade.svg", "descricao": "55 km/h" },
         { "icone": "rastreador.svg", "descricao": "Rastreador Integrado via App" }
       ]
     },

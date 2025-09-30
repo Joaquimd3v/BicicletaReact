@@ -220,19 +220,20 @@
     },
     {
       "nome": "Vireon Aura",
-      "preco": "R$ 37.500",
+      "preco": "R$ 1.799,00",
       "imagens": [
-        "bicicletas-comprar/aura/aura-1.jpg",
+        "bicicletas-comprar/aura/aura-1.png",
         "bicicletas-comprar/aura/aura-2.png",
         "bicicletas-comprar/aura/aura-3.png",
-        "bicicletas-comprar/aura/aura-4.png"
+        "bicicletas-comprar/aura/aura-4.png",
+        "bicicletas-comprar/aura/aura-5.png"
       ],
-      "descricao": "A Vireon Aura é a bicicleta elétrica criada para quem vê a cidade como um palco de estilo e liberdade. Com um visual minimalista em grafite fosco e quadro em fibra de carbono monobloco, une leveza, resistência e sofisticação em um só design. Seu motor Bafang Deluxe oferece potência suave e contínua, perfeito para percursos urbanos. Elegante e ágil, a Aura pode atingir até 85 km/h, garantindo performance sem perder o conforto. Uma bike pensada para quem valoriza design tanto quanto tecnologia e deseja se destacar nas ruas.",
+      "descricao": "A Vireon Aura foi criada para quem enxerga a cidade como uma extensão do seu estilo. Com visual minimalista em grafite fosco e quadro monobloco em fibra de carbono, ela combina leveza, resistência e sofisticação em um só design. Seu cassete de 7 velocidades com trocas suaves proporciona uma pedalada ágil e confortável, ideal para o dia a dia urbano. Com autonomia para percursos de até 55 km, a Aura entrega desempenho consistente sem abrir mão da elegância. Uma bike pensada para quem valoriza design tanto quanto liberdade.",
       "informacoes": [
         {
           "icone": "eletrica.svg",
-          "titulo": "Motor Bafang Deluxe",
-          "descricao": "Motor elétrico de alta performance com entrega suave de potência, ideal para trajetos urbanos com estilo e eficiência."
+          "titulo": "Cassete 7v com trocas suaves",
+          "descricao": "O cassete de 7 velocidades garante versatilidade para diferentes terrenos, oferecendo uma experiência de pedalada equilibrada e eficiente. Com trocas suaves e precisas, permite transições rápidas entre marchas, proporcionando maior controle e conforto durante o trajeto. Ideal para o uso urbano e passeios mais longos, combina simplicidade com desempenho confiável."
         },
         {
           "icone": "carbono.svg",
@@ -241,8 +242,8 @@
         },
         {
           "icone": "velocidade.svg",
-          "titulo": "85 km/h",
-          "descricao": "Velocidade máxima de até 85 km/h, ideal para quem busca agilidade e performance nas ruas da cidade."
+          "titulo": "55 km/h",
+          "descricao": "Velocidade máxima de até 55 km/h, ideal para quem busca agilidade e performance nas ruas da cidade."
         },
         {
           "icone": "rastreador.svg",

@@ -1,38 +1,35 @@
 import React from "react";
 import "./Parceiros.css";
 
+const basePath = "/BicicletaReact";
+
+const parceiros = [
+  { name: "Caloi", logo: `${basePath}/img/parceiros/Caloi.svg` },
+  { name: "Cannondale", logo: `${basePath}/img/parceiros/cannondale.svg` },
+  { name: "Gt", logo: `${basePath}/img/parceiros/gt.png` },
+  { name: "Trek", logo: `${basePath}/img/parceiros/trek.svg` },
+  { name: "Bianchi", logo: `${basePath}/img/parceiros/bianchi.svg` },
+  { name: "Santa Cruz", logo: `${basePath}/img/parceiros/santa.png` },
+  { name: "Pinarrelo", logo: `${basePath}/img/parceiros/pinarrelo.png` },
+];
+
 export default function Parceiros() {
   return (
     <section className="parceiros" aria-label="Nossos parceiros">
       <h2 className="font-1-xxl container">
         Nossos parceiros<span className="cor-p1">.</span>
       </h2>
-      <ul>
-        <li>
-          <img src="img/parceiros/caloi.svg" alt="Caloi" />
-        </li>
-        <li>
-          <img src="img/parceiros/cannondale.svg" alt="Cannondale" />
-        </li>
-        <li>
-          <img src="img/parceiros/fuji.svg" alt="Fuji" />
-        </li>
-        <li>
-          <img src="img/parceiros/giant-bicycles 1.svg" alt="Giant" />
-        </li>
-        <li>
-          <img src="img/parceiros/thor-2 1.svg" alt="Thor" />
-        </li>
-        <li>
-          <img src="img/parceiros/green-giant 2.svg" alt="Green" />
-        </li>
-        <li>
-          <img src="img/parceiros/shimano-1- 1.svg" alt="Shimano" />
-        </li>
-        <li>
-          <img src="img/parceiros/huffy-bicycles 1.svg" alt="Huffy" />
-        </li>
-      </ul>
+      <div className="marquee-container">
+        <div className="fade-left"></div>
+        <div className="fade-right"></div>
+        <ul className="marquee">
+          {[...parceiros, ...parceiros].map((p, idx) => (
+            <li key={idx}>
+              <img src={p.logo} alt={p.name} />
+            </li>
+          ))}
+        </ul>
+      </div>
     </section>
   );
 }

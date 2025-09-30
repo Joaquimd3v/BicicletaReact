@@ -12,9 +12,7 @@ export default function Header() {
             <span className="gradient">Uma extensão de você.</span>
           </h1>
           <p className="font-2-l cor-c5">
-            Vireon — Bicicletas elétricas feitas sob medida, com precisão e
-            qualidade de alto nível. Descubra o seu ritmo. Explore o mundo com a
-            sua identidade.
+            Vireon — Bicicletas criadas sob medida, com precisão e excelência. Encontre o seu ritmo. Explore o mundo com autenticidade.
           </p>
           <Link to="/bicicletas" className="botao">
             Escolha a sua

@@ -16,7 +16,7 @@ export default function BicicletasLista() {
               alt="Bicicleta moderna element"
             />
             <h3 className="font-1-xl">Element</h3>
-            <span className="font-2-m cor-c8">R$ 17.000</span>
+            <span className="font-2-m cor-c8">R$  1.099,00</span>
           </Link>
         </li>
         <li>
@@ -26,7 +26,7 @@ export default function BicicletasLista() {
               alt="Bicicleta moderna ignite"
             />
             <h3 className="font-1-xl">Ignite</h3>
-            <span className="font-2-m cor-c8">R$ 35.000</span>
+            <span className="font-2-m cor-c8">R$ 1.299,00</span>
           </Link>
         </li>
         <li>
@@ -36,7 +36,7 @@ export default function BicicletasLista() {
               alt="Bicicleta moderna nebula"
             />
             <h3 className="font-1-xl">Nebula</h3>
-            <span className="font-2-m cor-c8">R$ 64.000</span>
+            <span className="font-2-m cor-c8">R$ 2.399,00</span>
           </Link>
         </li>
       </ul>
