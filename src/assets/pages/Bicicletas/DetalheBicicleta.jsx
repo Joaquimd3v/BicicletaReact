@@ -1,16 +1,16 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import bicicletas from "../../../data/bicicletas.json";
-import { useCart } from "../../../assets/components/Cart/CartContext.jsx"; // Importe seu contexto
+import { useCart } from "../../../assets/components/Cart/CartContext.jsx";
 import "./DetalheBicicleta.css";
 import Comentarios from "../../components/comentarios/Comentarios";
 import Seguro from "../../components/Bicicletas-Seguro/seguro";
-import { Link } from "react-router-dom";
 
 function DetalheBicicleta() {
   const { nome } = useParams();
   const { addToCart } = useCart();
   const [added, setAdded] = useState(false);
+  const navigate = useNavigate();
 
   const bicicleta = bicicletas.bicicletas.find(
     (bike) => bike.nome.toLowerCase().replace(/\s+/g, "-") === nome
@@ -59,24 +59,30 @@ function DetalheBicicleta() {
 
   if (!bicicleta) return <p>Bicicleta não encontrada.</p>;
 
+  // Adicionar ao carrinho global
   function handleAddToCart() {
     addToCart(bicicleta);
     setAdded(true);
-    setTimeout(() => setAdded(false), 2000); // animação temporária
+    setTimeout(() => setAdded(false), 2000);
+  }
+
+  // Comprar agora -> adiciona ao carrinho e vai para checkout
+  function handleComprarAgora() {
+    addToCart(bicicleta); // garante que vá para o checkout
+    navigate("/checkout");
   }
 
   return (
     <>
       <main className="titulo-bg">
-        <div>
-          <div className="titulo container">
-            <p className="font-2-xl cor-c5">{bicicleta.preco}</p>
-            <h1 className="font-1-xxl cor-branco">
-              {bicicleta.nome}
-              <span className="cor-p1">.</span>
-            </h1>
-          </div>
+        <div className="titulo container">
+          <p className="font-2-xl cor-c5">{bicicleta.preco}</p>
+          <h1 className="font-1-xxl cor-branco">
+            {bicicleta.nome}
+            <span className="cor-p1">.</span>
+          </h1>
         </div>
+
         <div className="bicicleta container">
           <div className="bicicleta-imagens">
             <div className="zoom-container">
@@ -102,11 +108,10 @@ function DetalheBicicleta() {
             <p className="font-2-l cor-c5">{bicicleta.descricao}</p>
 
             <div className="bicicleta-comprar">
-              <Link className="botao" to="/orcamento">
+              <a className="botao" role="button" onClick={handleComprarAgora}>
                 Comprar Agora
-              </Link>
+              </a>
 
-              {/* Adicionar ao carrinho como <a> para manter estilo */}
               <a
                 className="botao estoque"
                 role="button"
@@ -120,17 +125,11 @@ function DetalheBicicleta() {
 
               <div className="bicicleta-info">
                 <span className="font-1-xs cor-c6">
-                  <img
-                    src="/BicicletaReact/img/icones/entrega.svg"
-                    alt="Entrega"
-                  />{" "}
+                  <img src="/BicicletaReact/img/icones/entrega.svg" alt="Entrega" />{" "}
                   {bicicleta.entrega}
                 </span>
                 <span className="font-1-xs cor-c6">
-                  <img
-                    src="/BicicletaReact/img/icones/estoque.svg"
-                    alt="Estoque"
-                  />{" "}
+                  <img src="/BicicletaReact/img/icones/estoque.svg" alt="Estoque" />{" "}
                   {bicicleta.estoque} em estoque
                 </span>
               </div>
@@ -161,6 +160,7 @@ function DetalheBicicleta() {
           </div>
         </div>
       </main>
+
       <Comentarios produtoId={bicicleta.id || nome} />
       <Seguro />
     </>

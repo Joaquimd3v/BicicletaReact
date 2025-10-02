@@ -5,52 +5,42 @@ const CartContext = createContext();
 export function CartProvider({ children }) {
   const [items, setItems] = useState([]);
 
-  // Carregar os itens do carrinho do localStorage ao montar o componente
+  // Carregar carrinho do localStorage ao iniciar
   useEffect(() => {
     const savedItems = JSON.parse(localStorage.getItem("cart")) || [];
     setItems(savedItems);
   }, []);
 
-  // Adicionar item ao carrinho
+  // Salvar carrinho no localStorage sempre que items mudar
+  useEffect(() => {
+    localStorage.setItem("cart", JSON.stringify(items));
+  }, [items]);
+
+  // Adicionar produto ao carrinho
   const addToCart = (product) => {
-    // Garantir que o preço seja um número
     const precoNumerico =
       typeof product.preco === "string"
-        ? Number(
-            product.preco.replace("R$", "").replace(/\./g, "").replace(",", ".")
-          )
+        ? Number(product.preco.replace("R$", "").replace(/\./g, "").replace(",", "."))
         : product.preco;
 
-    const produtoCorrigido = {
-      ...product,
-      preco: precoNumerico,
-    };
+    const produtoCorrigido = { ...product, preco: precoNumerico };
 
-    setItems((prevItems) => {
-      const updatedItems = [...prevItems, produtoCorrigido];
-      // Salvar os itens no localStorage sempre que eles mudarem
-      localStorage.setItem("cart", JSON.stringify(updatedItems));
-      return updatedItems;
-    });
+    setItems((prev) => [...prev, produtoCorrigido]);
   };
 
-  // Remover item do carrinho
+  // Remover produto pelo id
   const removeFromCart = (productToRemove) => {
-    setItems((prevItems) => {
-      const updatedItems = prevItems.filter((item) => item !== productToRemove);
-      // Salvar os itens no localStorage após a remoção
-      localStorage.setItem("cart", JSON.stringify(updatedItems));
-      return updatedItems;
-    });
+    setItems((prev) => prev.filter((item) => item.id !== productToRemove.id));
   };
 
-  const value = {
-    items,
-    addToCart,
-    removeFromCart,
-  };
+  // Limpar carrinho
+  const clearCart = () => setItems([]);
 
-  return <CartContext.Provider value={value}>{children}</CartContext.Provider>;
+  return (
+    <CartContext.Provider value={{ items, addToCart, removeFromCart, clearCart }}>
+      {children}
+    </CartContext.Provider>
+  );
 }
 
 export const useCart = () => useContext(CartContext);

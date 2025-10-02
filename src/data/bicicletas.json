@@ -13,12 +13,12 @@
       "informacoes": [
         {
           "icone": "eletrica.svg",
-          "titulo": "Transmissão Shimano de 21 velocidades",
-          "descricao": "Sistema elétrico de alto desempenho com autonomia de até 120 km por carga, ideal para trajetos longos."
+          "titulo": "Suspensão dianteira com 80mm de curso",
+          "descricao": "Absorve impactos com eficiência, proporcionando conforto e controle em terrenos irregulares."
         },
         {
           "icone": "velocidade.svg",
-          "titulo": "160 km/h",
+          "titulo": "32 km/h",
           "descricao": "Capaz de alcançar altas velocidades com segurança e precisão, ideal para longas distâncias."
         },
         {
@@ -45,7 +45,7 @@
     },
     {
       "nome": "Vireon Nero",
-      "preco": "R$ 20.000",
+      "preco": "R$ 2.199,00",
       "imagens": [
         "bicicletas-comprar/nero/Nero-1.jpg",
         "bicicletas-comprar/nero/Nero-2.png",
@@ -56,13 +56,13 @@
       "informacoes": [
         {
           "icone": "eletrica.svg",
-          "titulo": "Motor Elétrico",
-          "descricao": "Equipada com motor Bafang 500W, garante força e eficiência mesmo em subidas e terrenos desafiadores."
+          "titulo": "Conjunto de marchas de precisão",
+          "descricao": "Trocas suaves e precisas, garantindo desempenho confiável e eficiente em qualquer terreno."
         },
         {
           "icone": "velocidade.svg",
-          "titulo": "100 km/h",
-          "descricao": "Desempenho esportivo com velocidade final de até 100 km/h, mantendo estabilidade e controle."
+          "titulo": "30 km/h",
+          "descricao": "Desempenho esportivo com velocidade final de até 30 km/h, mantendo estabilidade e controle."
         },
         {
           "icone": "rastreador.svg",
@@ -264,7 +264,7 @@
     },
     {
       "nome": "Vireon Flux",
-      "preco": "R$ 64.000",
+      "preco": "R$ 2.699,00",
       "imagens": [
         "bicicletas-comprar/flux/flux-1.jpg",
         "bicicletas-comprar/flux/flux-2.png",
@@ -275,7 +275,7 @@
       "informacoes": [
         {
           "icone": "eletrica.svg",
-          "titulo": "Motor Bosch Performance Line CX",
+          "titulo": "Freios a disco de alta precisão",
           "descricao": "Desempenho de ponta com torque otimizado e resposta instantânea, ideal para quem busca potência e controle em qualquer terreno."
         },
         {
@@ -285,7 +285,7 @@
         },
         {
           "icone": "velocidade.svg",
-          "titulo": "100 km/h",
+          "titulo": "30 km/h",
           "descricao": "Velocidade máxima impressionante para quem quer ir além dos limites urbanos com agilidade e segurança."
         },
         {
@@ -307,7 +307,7 @@
     },
     {
       "nome": "Vireon Magic",
-      "preco": "R$ 35.000",
+      "preco": "R$  1.599,00",
       "imagens": [
         "bicicletas-comprar/magic/magic-1.jpg",
         "bicicletas-comprar/magic/magic-2.png",
@@ -318,8 +318,8 @@
       "informacoes": [
         {
           "icone": "motor.svg",
-          "titulo": "Motor Bafang 250w",
-          "descricao": "Movida por um motor eficiente e silencioso, entrega potência suave e confiável para o dia a dia urbano."
+          "titulo": "Corrente KMC com alta durabilidade",
+          "descricao": "Corrente resistente e confiável, projetada para longa vida útil e desempenho consistente em qualquer tipo de pedalada."
         },
         {
           "icone": "aluminio.svg",
@@ -328,7 +328,7 @@
         },
         {
           "icone": "velocidade.svg",
-          "titulo": "100 km/h",
+          "titulo": "25 km/h",
           "descricao": "Velocidade máxima ideal para quem busca praticidade sem abrir mão da performance."
         },
         {

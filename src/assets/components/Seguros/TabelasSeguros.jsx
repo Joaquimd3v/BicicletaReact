@@ -27,7 +27,7 @@ const TabelasSeguros = () => {
             <li>Franquia reduzida em casos de sinistro</li>
           </ul>
           <Link to="/orcamento" className="botao secundario">
-            Contrate
+            Solicite um orçamento
           </Link>
         </div>
 
@@ -47,7 +47,7 @@ const TabelasSeguros = () => {
             <li>Acompanhamento de processo 100% online</li>
           </ul>
           <Link to="/orcamento" className="botao">
-            Contrate
+            Solicite um orçamento
           </Link>
         </div>
       </div>

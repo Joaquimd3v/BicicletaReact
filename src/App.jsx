@@ -23,9 +23,8 @@ import Seguro from "./assets/pages/Seguros/Seguros";
 // Pagina Bicicletas Individuais
 import DetalheBicicleta from "./assets/pages/Bicicletas/DetalheBicicleta";
 
-
 // Cart
-import { CartProvider } from "../src/assets/components/Cart/CartContext.jsx"; // importa o contexto do carrinho
+import { CartProvider } from "../src/assets/components/Cart/CartContext.jsx";
 
 // Contato
 import Contato from "./assets/pages/Contato/contato.jsx";
@@ -33,8 +32,11 @@ import Contato from "./assets/pages/Contato/contato.jsx";
 // Orçamento
 import Orçamento from "./assets/pages/Orçamento/orcamento.jsx";
 
-//  Bike Customize
+// Bike Customize
 import BikeCustomizer from "./assets/pages/BikeCustomizer/bikecustomizer.jsx";
+
+// Checkout (nova página)
+import Checkout from "./assets/components/Checkout/Checkout.jsx";
 
 export default function App() {
   const location = useLocation();
@@ -72,6 +74,9 @@ export default function App() {
           <Route path="/bicicletas/:nome" element={<DetalheBicicleta />} />
           <Route path="/orcamento" element={<Orçamento />} />
           <Route path="/customize" element={<BikeCustomizer />} />
+
+          {/* Nova rota de Checkout */}
+          <Route path="/checkout" element={<Checkout />} />
         </Route>
 
         {/* Página 404 isolada, sem header/footer */}
