@@ -95,18 +95,6 @@
         { "icone": "velocidade.svg", "descricao": "32 km/h" },
         { "icone": "rastreador.svg", "descricao": "Rastreador Integrado via App" }
       ]
-    },
-    {
-      "nome": "Vireon Veloce",
-      "preco": "R$ 2.499,00",
-      "imagem": "voloce.jpg",
-      "descricao": "A Vireon Veloce foi feita para quem vive em movimento. Ágil, leve e com um design minimalista e sofisticado, ela oferece uma experiência de pedal fluida e precisa, ideal para quem quer atravessar a cidade com estilo e sem perder tempo.",
-      "caracteristicas": [
-        { "icone": "eletrica.svg", "descricao": "Central com movimento selado e leve" },
-        { "icone": "carbono.svg", "descricao": "Quadro em Alumínio escovado com soldas polidas" },
-        { "icone": "velocidade.svg", "descricao": "35 km/h" },
-        { "icone": "rastreador.svg", "descricao": "Rastreador Integrado via App" }
-      ]
     }
   ]
 }

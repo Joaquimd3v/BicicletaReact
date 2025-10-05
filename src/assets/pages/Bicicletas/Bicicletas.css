@@ -10,6 +10,10 @@
   padding-bottom: 60px;
 }
 
+.bicicletas-bg:last-child {
+  margin-bottom: 40px; 
+}
+
 .bicicletas-imagem {
   display: grid;
 }

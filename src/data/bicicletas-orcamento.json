@@ -2,12 +2,12 @@
   "bicicletas": [
     {
       "nome": "Vireon Element",
-      "preco": "R$ 1.499,90",
+      "preco": "R$ 1.099,00",
       "imagem": "element.jpg",
       "caracteristicas": [
-        { "icone": "eletrica.svg", "descricao": "Motor Elétrico Mid-Drive" },
+        { "icone": "eletrica.svg", "descricao": "Transmissão Shimano de 21 velocidades" },
         { "icone": "carbono.svg", "descricao": "Quadro em Alumínio 7005" },
-        { "icone": "velocidade.svg", "descricao": "70 km/h" },
+        { "icone": "velocidade.svg", "descricao": "40 km/h" },
         {
           "icone": "rastreador.svg",
           "descricao": "Rastreador Integrado via App"
@@ -16,12 +16,12 @@
     },
     {
       "nome": "Vireon Ignite",
-      "preco": "R$ 35.000",
+      "preco": "R$ 1.299,00",
       "imagem": "ignite.jpg",
       "caracteristicas": [
-        { "icone": "eletrica.svg", "descricao": "Motor Elétrico Brose Drive" },
+        { "icone": "eletrica.svg", "descricao": "Câmbio traseiro Shimano Tourney" },
         { "icone": "carbono.svg", "descricao": "Quadro em Fibra de Carbono" },
-        { "icone": "velocidade.svg", "descricao": "90 km/h" },
+        { "icone": "velocidade.svg", "descricao": "45 km/h" },
         {
           "icone": "rastreador.svg",
           "descricao": "Rastreador Integrado via App"
@@ -30,12 +30,12 @@
     },
     {
       "nome": "Vireon Nebula",
-      "preco": "R$ 64.000",
+      "preco": "R$ 2.399,00",
       "imagem": "nebula.jpg",
       "caracteristicas": [
-        { "icone": "eletrica.svg", "descricao": "Motor Bosh Performance" },
+        { "icone": "eletrica.svg", "descricao": "Pedivela de alumínio forjado" },
         { "icone": "carbono.svg", "descricao": "Quadro em Fibra de Carbono" },
-        { "icone": "velocidade.svg", "descricao": "100 km/h" },
+        { "icone": "velocidade.svg", "descricao": "50 km/h" },
         {
           "icone": "rastreador.svg",
           "descricao": "Rastreador Integrado via App"
@@ -44,15 +44,15 @@
     },
     {
       "nome": "Vireon Aura",
-      "preco": "R$ 37.500",
+      "preco": "R$  1.799,00",
       "imagem": "aura.jpg",
       "caracteristicas": [
-        { "icone": "eletrica.svg", "descricao": "Motor Bafang Deluxe" },
+        { "icone": "eletrica.svg", "descricao": "Cassete 7v com trocas suaves" },
         {
           "icone": "carbono.svg",
           "descricao": "Quadro em Fibra de Carbono Monobloco"
         },
-        { "icone": "velocidade.svg", "descricao": "85 km/h" },
+        { "icone": "velocidade.svg", "descricao": "55 km/h" },
         {
           "icone": "rastreador.svg",
           "descricao": "Rastreador Integrado via App"
@@ -61,18 +61,18 @@
     },
     {
       "nome": "Vireon Flux",
-      "preco": "R$ 64.000",
+      "preco": "R$ 2.699,00",
       "imagem": "flux.jpg",
       "caracteristicas": [
         {
           "icone": "eletrica.svg",
-          "descricao": "Motor Bosch Performance Line CX"
+          "descricao": "Freios a disco de alta precisão"
         },
         {
           "icone": "carbono.svg",
           "descricao": "Quadro em Fibra de Carbono e Grafeno"
         },
-        { "icone": "velocidade.svg", "descricao": "100 km/h" },
+        { "icone": "velocidade.svg", "descricao": "30 km/h" },
         {
           "icone": "rastreador.svg",
           "descricao": "Rastreador Integrado via App"
@@ -81,15 +81,15 @@
     },
     {
       "nome": "Vireon Magic",
-      "preco": "R$ 35.000",
+      "preco": "R$ 1.599,00",
       "imagem": "magic.jpg",
       "caracteristicas": [
-        { "icone": "eletrica.svg", "descricao": "Motor Bafang 250w" },
+        { "icone": "eletrica.svg", "descricao": "Corrente KMC com alta durabilidade" },
         {
           "icone": "carbono.svg",
           "descricao": "Quadro em Alumínio Premium 6061"
         },
-        { "icone": "velocidade.svg", "descricao": "100 km/h" },
+        { "icone": "velocidade.svg", "descricao": "25 km/h" },
         {
           "icone": "rastreador.svg",
           "descricao": "Rastreador Integrado via App"
@@ -98,12 +98,12 @@
     },
     {
       "nome": "Vireon Nero",
-      "preco": "R$ 20.000",
+      "preco": "R$  2.199,00",
       "imagem": "Nero.jpg",
       "caracteristicas": [
-        { "icone": "eletrica.svg", "descricao": "Motor Bafang 500w" },
+        { "icone": "eletrica.svg", "descricao": "Conjunto de marchas de precisão" },
         { "icone": "carbono.svg", "descricao": "Quadro em Fibra de Carbono" },
-        { "icone": "velocidade.svg", "descricao": "100 km/h" },
+        { "icone": "velocidade.svg", "descricao": "30 km/h" },
         {
           "icone": "rastreador.svg",
           "descricao": "Rastreador Integrado via App"
@@ -112,32 +112,15 @@
     },
     {
       "nome": "Vireon Pulse",
-      "preco": "R$ 70.000",
+      "preco": "R$ 2.999,00",
       "imagem": "pulse.jpg",
       "caracteristicas": [
-        { "icone": "eletrica.svg", "descricao": "Motor Bafang M400 750W" },
+        { "icone": "eletrica.svg", "descricao": "Suspensão dianteira com 80mm de curso" },
         {
           "icone": "carbono.svg",
           "descricao": "Quadro em Alumínio 6061 com soldagem TIG"
         },
-        { "icone": "velocidade.svg", "descricao": "160 km/h" },
-        {
-          "icone": "rastreador.svg",
-          "descricao": "Rastreador Integrado via App"
-        }
-      ]
-    },
-    {
-      "nome": "Vireon Veloce",
-      "preco": "R$ 100.000",
-      "imagem": "voloce.jpg",
-      "caracteristicas": [
-        { "icone": "eletrica.svg", "descricao": "Motor Mahle X35+ 250W" },
-        {
-          "icone": "carbono.svg",
-          "descricao": "Quadro em Alumínio escovado com soldas polidas"
-        },
-        { "icone": "velocidade.svg", "descricao": "180 km/h" },
+        { "icone": "velocidade.svg", "descricao": "32 km/h" },
         {
           "icone": "rastreador.svg",
           "descricao": "Rastreador Integrado via App"
