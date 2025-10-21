@@ -6,7 +6,7 @@ import "./Cart.css";
 
 export default function Cart() {
   const [isOpen, setIsOpen] = useState(false);
-  const { items, removeFromCart, clearCart } = useCart(); // ⬅️ ADICIONE clearCart AQUI
+  const { items, removeFromCart, clearCart } = useCart(); 
   const navigate = useNavigate();
 
   const total = items.length > 0 ? items.reduce((acc, item) => acc + Number(item.preco), 0) : 0;

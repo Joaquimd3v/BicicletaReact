@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "./Header.css";
 import Cart from "../Cart/Cart";
+import { FaUserCircle } from "react-icons/fa";
 
 export default function Header() {
   return (
@@ -70,19 +71,22 @@ export default function Header() {
             </defs>
           </svg>
         </Link>
-        <nav aria-label="primaria">
+            <nav aria-label="primaria">
           <ul className="header-menu font-1-m cor-c1">
-            <li>
-              <Link to="/bicicletas">Bicicletas</Link>
-            </li>
-            <li>
-              <Link to="/seguro">Seguros</Link>
-            </li>
-            <li>
-              <Link to="/contato">Contato</Link>
-            </li>
+            <li><Link to="/bicicletas">Bicicletas</Link></li>
+            <li><Link to="/seguro">Seguros</Link></li>
+            <li><Link to="/contato">Contato</Link></li>
           </ul>
         </nav>
+
+        {/* ✅ Área de Login/Register */}
+        <div className="user-auth">
+          <FaUserCircle size={24} color="#fff" />
+          <Link to="/login" className="auth-link">Login</Link>
+          <span className="divider">/</span>
+          <Link to="/register" className="auth-link">Registrar</Link>
+        </div>
+
         <Cart />
       </div>
     </header>

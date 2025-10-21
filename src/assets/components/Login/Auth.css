@@ -1,0 +1,582 @@
+/* ESTILOS ISOLADOS - só aplicam quando body tem classe auth-page */
+body.auth-page {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    min-height: 100vh !important;
+    padding: 20px !important;
+    background: linear-gradient(135deg, var(--c10) 0%, var(--c8) 100%) !important;
+    margin: 0 !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container principal do auth */
+.auth-container {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    background: var(--w);
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    min-height: 600px;
+}
+
+/* Lado Esquerdo */
+.auth-left {
+    flex: 1;
+    background: linear-gradient(135deg, var(--c11) 0%, var(--c9) 100%);
+    color: var(--w);
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.auth-left::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, transparent 70%, rgba(255, 187, 0, 0.1) 100%);
+}
+
+.logo-section {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.bike-icon {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: var(--p1);
+    text-shadow: 0 4px 12px rgba(255, 187, 0, 0.3);
+}
+
+.logo-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: var(--w);
+}
+
+.logo-section p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    color: var(--c4);
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1rem;
+    padding: 12px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.05);
+    transition: all 0.3s ease;
+}
+
+.feature:hover {
+    background: rgba(255, 187, 0, 0.1);
+    transform: translateX(5px);
+}
+
+.feature i {
+    font-size: 1.2rem;
+    color: var(--p1);
+    width: 25px;
+}
+
+.feature span {
+    color: var(--c2);
+}
+
+/* Lado Direito */
+.auth-right {
+    flex: 1;
+    padding: 50px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--w);
+}
+
+.auth-form-container {
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.form-header h2 {
+    font-size: 2rem;
+    color: var(--c12);
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.form-header p {
+    color: var(--c7);
+    font-size: 1rem;
+}
+
+/* Mensagens de erro */
+.error-message {
+    background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+    color: var(--w);
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.9rem;
+    animation: slideIn 0.3s ease;
+}
+
+.error-message i {
+    font-size: 1rem;
+}
+
+/* Formulário */
+.auth-form {
+    width: 100%;
+}
+
+.input-group {
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.input-group label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: var(--c10);
+    font-size: 0.9rem;
+}
+
+.input-group label i {
+    color: var(--p2);
+    width: 16px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 15px 20px;
+    border: 2px solid var(--c3);
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background: var(--c1);
+    color: var(--c10);
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: var(--p1);
+    background: var(--w);
+    box-shadow: 0 0 0 3px rgba(255, 187, 0, 0.1);
+}
+
+.input-group input::placeholder {
+    color: var(--c6);
+}
+
+.input-group input:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 15px;
+    top: 40px;
+    background: none;
+    border: none;
+    color: var(--c6);
+    cursor: pointer;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.toggle-password:hover:not(:disabled) {
+    color: var(--p2);
+}
+
+.toggle-password:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Opções do Formulário */
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 0.9rem;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    color: var(--c9);
+}
+
+.remember-me input {
+    display: none;
+}
+
+.checkmark {
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--c5);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    background: var(--w);
+}
+
+.remember-me input:checked + .checkmark {
+    background: var(--p1);
+    border-color: var(--p1);
+}
+
+.remember-me input:checked + .checkmark::after {
+    content: '✓';
+    color: var(--w);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.remember-me:has(input:disabled) {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.forgot-password {
+    color: var(--p2);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.forgot-password:hover {
+    color: var(--p3);
+    text-decoration: underline;
+}
+
+/* Botão de Auth */
+.auth-btn {
+    width: 100%;
+    padding: 16px;
+    background: linear-gradient(135deg, var(--p1) 0%, var(--p2) 100%);
+    color: var(--c12);
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.auth-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s;
+}
+
+.auth-btn:hover::before {
+    left: 100%;
+}
+
+.auth-btn:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(255, 187, 0, 0.4);
+}
+
+.auth-btn:active:not(:disabled) {
+    transform: translateY(0);
+}
+
+.auth-btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+    transform: none !important;
+}
+
+.auth-btn:disabled::before {
+    left: -100%;
+}
+
+/* Divisor */
+.divider {
+    text-align: center;
+    margin: 30px 0;
+    position: relative;
+    color: var(--c6);
+    font-size: 0.9rem;
+}
+
+.divider::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: var(--c3);
+}
+
+.divider span {
+    background: var(--w);
+    padding: 0 15px;
+}
+
+/* Login Social */
+.social-auth {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.social-btn {
+    padding: 14px;
+    border: 2px solid var(--c3);
+    border-radius: 8px;
+    background: var(--w);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: var(--c9);
+}
+
+.social-btn:hover:not(:disabled) {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-color: var(--p1);
+    color: var(--p2);
+}
+
+.social-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none !important;
+}
+
+.social-btn.google i {
+    color: #DB4437;
+}
+
+.social-btn.facebook i {
+    color: #4267B2;
+}
+
+/* Link de Auth */
+.auth-link {
+    text-align: center;
+    color: var(--c7);
+    font-size: 0.95rem;
+}
+
+.auth-link a {
+    color: var(--p2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.auth-link a:hover {
+    color: var(--p3);
+    text-decoration: underline;
+}
+
+/* Animações */
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.fa-spinner {
+    animation: spin 1s linear infinite;
+}
+
+/* Estados de foco melhorados */
+.input-group.focused label {
+    color: var(--p2);
+}
+
+.input-group.focused i {
+    color: var(--p1);
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .auth-container {
+        flex-direction: column;
+        max-width: 400px;
+        border-radius: 12px;
+    }
+    
+    .auth-left {
+        padding: 30px 20px;
+    }
+    
+    .auth-right {
+        padding: 30px 20px;
+    }
+    
+    .features {
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 30px;
+        gap: 15px;
+    }
+    
+    .feature {
+        flex-direction: column;
+        text-align: center;
+        gap: 8px;
+        padding: 10px;
+    }
+    
+    .feature span {
+        font-size: 0.8rem;
+    }
+    
+    .feature i {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    body.auth-page {
+        padding: 10px !important;
+    }
+    
+    .auth-container {
+        border-radius: 10px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        min-height: 500px;
+    }
+    
+    .logo-section h1 {
+        font-size: 2rem;
+    }
+    
+    .form-header h2 {
+        font-size: 1.5rem;
+    }
+    
+    .features {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .feature {
+        flex-direction: row;
+        text-align: left;
+    }
+    
+    .auth-left, .auth-right {
+        padding: 25px 20px;
+    }
+    
+    .social-auth {
+        gap: 10px;
+    }
+    
+    .social-btn {
+        padding: 12px;
+        font-size: 0.9rem;
+    }
+}
+
+/* Loading states adicionais */
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    color: var(--c7);
+    gap: 15px;
+}
+
+.loading-container i {
+    font-size: 2rem;
+    color: var(--p1);
+}
+
+/* Melhorias de acessibilidade */
+.auth-btn:focus,
+.social-btn:focus,
+.toggle-password:focus {
+    outline: 2px solid var(--p1);
+    outline-offset: 2px;
+}
+
+.input-group input:focus {
+    outline: 2px solid var(--p1);
+    outline-offset: -2px;
+}
+
+/* Transições suaves para todos os elementos interativos */
+.auth-btn,
+.social-btn,
+.toggle-password,
+.feature,
+.input-group input {
+    transition: all 0.3s ease;
+}

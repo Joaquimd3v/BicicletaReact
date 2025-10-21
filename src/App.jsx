@@ -1,10 +1,10 @@
 import { Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 
-// Header junto com o Footer
+// Layout padrão com Header e Footer
 import MainLayout from "./assets/components/Layout/MainLayout";
 
-// Componentes reutilizáveis
+// Componentes reutilizáveis da Home
 import Introducao from "./assets/components/Introdução/Introducao";
 import BicicletasListas from "./assets/components/BicicletasListas/BicicletasListas";
 import Tecnologia from "./assets/components/Tecnologia/Tecnologia";
@@ -20,27 +20,26 @@ import NotFound from "./assets/pages/NotFound/NotFound";
 import Bicicletas from "./assets/pages/Bicicletas/Bicicletas";
 import Seguro from "./assets/pages/Seguros/Seguros";
 
-// Pagina Bicicletas Individuais
+// Página de Detalhe da Bicicleta
 import DetalheBicicleta from "./assets/pages/Bicicletas/DetalheBicicleta";
 
-// Cart
-import { CartProvider } from "../src/assets/components/Cart/CartContext.jsx";
+// Cart Context
+import { CartProvider } from "./assets/components/Cart/CartContext.jsx";
 
-// Contato
+// Outras páginas
 import Contato from "./assets/pages/Contato/contato.jsx";
-
-// Orçamento
 import Orçamento from "./assets/pages/Orçamento/orcamento.jsx";
-
-// Bike Customize
 import BikeCustomizer from "./assets/pages/BikeCustomizer/bikecustomizer.jsx";
 
-// Checkout (nova página)
+// Páginas independentes
 import Checkout from "./assets/components/Checkout/Checkout.jsx";
+import Login from "./assets/components/Login/Login.jsx";
+import Register from "./assets/components/Login/Register.jsx";
 
 export default function App() {
   const location = useLocation();
 
+  // Rolagem para o topo ao navegar entre páginas
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location]);
@@ -48,7 +47,7 @@ export default function App() {
   return (
     <CartProvider>
       <Routes>
-        {/* Todas as rotas com Header e Footer dentro de MainLayout */}
+        {/* Rotas com Header e Footer */}
         <Route element={<MainLayout />}>
           <Route
             path="/"
@@ -74,12 +73,14 @@ export default function App() {
           <Route path="/bicicletas/:nome" element={<DetalheBicicleta />} />
           <Route path="/orcamento" element={<Orçamento />} />
           <Route path="/customize" element={<BikeCustomizer />} />
-
-          {/* Nova rota de Checkout */}
-          <Route path="/checkout" element={<Checkout />} />
         </Route>
 
-        {/* Página 404 isolada, sem header/footer */}
+        {/* Rotas fora do layout (sem Header/Footer) */}
+        <Route path="/checkout" element={<Checkout />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+
+        {/* Página 404 */}
         <Route path="*" element={<NotFound />} />
       </Routes>
     </CartProvider>
