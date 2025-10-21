@@ -89,7 +89,7 @@
   flex: 2;
   display: flex;
   flex-direction: column;
-  gap: 20px; /* Espaçamento entre seções do formulário */
+  gap: 20px;
 }
 
 .checkout-form input:not([type="checkbox"]):not([type="radio"]) {
@@ -100,7 +100,7 @@
   width: 100%;
   box-sizing: border-box;
   transition: border-color 0.2s;
-  margin-bottom: 12px; /* NOVO: distância entre os inputs */
+  margin-bottom: 12px;
 }
 
 .checkout-form input:focus {
@@ -108,12 +108,13 @@
   outline: none;
 }
 
-
 /* Botões */
 .step-buttons {
   display: flex;
   justify-content: space-between;
   margin-top: 25px;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .step-buttons button {
@@ -127,6 +128,7 @@
   font-size: 0.95rem;
   min-width: 130px;
   transition: all 0.2s ease;
+  flex: 1;
 }
 
 .step-buttons button:hover {
@@ -139,6 +141,7 @@
   border: 1px solid var(--color-border);
   font-weight: 500;
 }
+
 .step-buttons .secondary-button:hover {
   background: var(--color-background-dark);
 }
@@ -151,6 +154,7 @@
 .finish-button {
   background: var(--color-success) !important;
 }
+
 .finish-button:hover {
   background: var(--color-success-hover) !important;
 }
@@ -161,6 +165,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  min-width: 0; /* ⬅️ IMPEDE QUEBRA EM TELAS PEQUENAS */
 }
 
 /* Resumo */
@@ -196,10 +201,20 @@
   height: 70px;
   object-fit: cover;
   border-radius: 8px;
+  flex-shrink: 0;
 }
 
-.summary-item-name { font-size: 1rem; font-weight: 600; margin-bottom: 4px; }
-.summary-item-price { font-size: 0.95rem; color: var(--color-text-medium); }
+.summary-item-name { 
+  font-size: 1rem; 
+  font-weight: 600; 
+  margin-bottom: 4px; 
+  word-wrap: break-word;
+}
+
+.summary-item-price { 
+  font-size: 0.95rem; 
+  color: var(--color-text-medium); 
+}
 
 .summary-remove-item {
   background: none;
@@ -260,6 +275,7 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
+  min-width: 0; /* ⬅️ GARANTE QUE NÃO QUEBRE */
 }
 
 .seguro-card:hover { border-color: var(--color-primary); transform: translateY(-3px); }
@@ -268,7 +284,7 @@
 .seguro-valor { font-weight: 700; font-size: 1.1rem; color: var(--color-text-dark); }
 .seguro-desc { font-size: 0.9rem; color: var(--color-text-medium); }
 
-/* Review */
+/* Review - GARANTINDO QUE SEMPRE FIQUE VISÍVEL */
 .review-details {
   background: var(--color-background-dark);
   padding: 16px;
@@ -276,9 +292,12 @@
   font-size: 1rem;
   line-height: 1.6;
   border: 1px solid #eee;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  min-width: 0; /* ⬅️ IMPEDE ESTOURAR CONTAINER */
 }
 
-
+/* Modal */
 .modal-pedido {
   position: fixed;
   top: 0;
@@ -300,6 +319,8 @@
   max-width: 500px;
   overflow-y: auto;
   max-height: 80vh;
+  width: 90%; /* ⬅️ RESPONSIVO */
+  margin: 20px;
 }
 
 .modal-conteudo h2 {
@@ -317,6 +338,7 @@
   align-items: center;
   justify-content: space-between;
   margin-bottom: 0.5rem;
+  flex-wrap: wrap;
 }
 
 .modal-item img {
@@ -325,6 +347,7 @@
   object-fit: cover;
   margin-right: 0.5rem;
   border-radius: 4px;
+  flex-shrink: 0;
 }
 
 .modal-resumo p {
@@ -342,6 +365,7 @@
   border: none;
   border-radius: 5px;
   font-weight: bold;
+  min-width: 120px;
 }
 
 .modal-conteudo button:first-child {
@@ -354,17 +378,109 @@
   color: white;
 }
 
+/* RESPONSIVO - CORREÇÕES ESPECÍFICAS */
+@media (max-width: 992px) { 
+  .checkout-summary { min-width: unset; } 
+}
 
-
-
-
-
-/* Responsivo */
-@media (max-width: 992px) { .checkout-summary { min-width: unset; } }
 @media (max-width: 768px) {
   .main-form-area { flex-direction: column; }
   .checkout-summary { position: static; top: auto; }
   .summary-total { text-align: left; }
   .seguro-options { flex-direction: column; gap: 12px; }
   .seguro-card { flex: 1 1 100%; padding: 14px; }
+}
+
+/* CORREÇÃO ESPECÍFICA PARA 518x844 E MENORES */
+@media (max-width: 518px) {
+  .checkout-container {
+    padding: 15px;
+    gap: 20px;
+  }
+  
+  .stepper-header {
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .step-item {
+    flex: none;
+    width: 100%;
+  }
+  
+  .step-connector {
+    display: none;
+  }
+  
+  .main-form-area {
+    gap: 20px;
+  }
+  
+  .checkout-right {
+    min-width: 0;
+    width: 100%;
+  }
+  
+  .checkout-summary, 
+  .checkout-seguro, 
+  .review-details {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .summary-item {
+    flex-wrap: wrap;
+  }
+  
+  .summary-item img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .step-buttons {
+    flex-direction: column;
+  }
+  
+  .step-buttons button {
+    min-width: 100%;
+    width: 100%;
+  }
+  
+  .modal-conteudo {
+    padding: 1.5rem;
+    margin: 10px;
+    width: 95%;
+  }
+  
+  .modal-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+}
+
+/* CORREÇÃO PARA TELAS MUITO PEQUENAS */
+@media (max-width: 360px) {
+  .checkout-container {
+    padding: 10px;
+  }
+  
+  .checkout-summary,
+  .checkout-seguro {
+    padding: 12px;
+  }
+  
+  .summary-item img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .seguro-card {
+    padding: 12px;
+  }
+  
+  .modal-conteudo {
+    padding: 1rem;
+  }
 }

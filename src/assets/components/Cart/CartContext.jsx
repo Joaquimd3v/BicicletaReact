@@ -16,7 +16,7 @@ export function CartProvider({ children }) {
     localStorage.setItem("cart", JSON.stringify(items));
   }, [items]);
 
-  // Adicionar produto ao carrinho
+  // Adicionar produto ao carrinho - CORRIGIDO
   const addToCart = (product) => {
     const precoNumerico =
       typeof product.preco === "string"
@@ -25,7 +25,8 @@ export function CartProvider({ children }) {
 
     const produtoCorrigido = { ...product, preco: precoNumerico };
 
-    setItems((prev) => [...prev, produtoCorrigido]);
+    // ⬇️ CORREÇÃO: Adiciona no INÍCIO para novos itens aparecerem no TOPO (lado direito)
+    setItems((prev) => [produtoCorrigido, ...prev]);
   };
 
   // Remover produto pelo id

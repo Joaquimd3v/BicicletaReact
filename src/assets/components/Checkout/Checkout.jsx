@@ -60,7 +60,7 @@ const Summary = ({ items, frete, seguro, removeFromCheckout }) => {
 };
 
 export default function Checkout() {
-  const { items: cartItems } = useCart();
+  const { items: cartItems, clearCart } = useCart(); // ⬅️ ADICIONE clearCart AQUI
   const navigate = useNavigate();
 
   const [currentStep, setCurrentStep] = useState(1);
@@ -99,8 +99,17 @@ export default function Checkout() {
     }
   }, [formData.cep]);
 
+  // ⬇️ FUNÇÃO ATUALIZADA PARA LIMPAR CARRINHO
   const finalizarPedido = () => {
+    // Limpa o carrinho ANTES de mostrar o modal
+    clearCart();
     setPedidoFinalizado(true);
+  };
+
+  // ⬇️ FUNÇÃO PARA VOLTAR À LOJA (LIMPA CARRINHO TAMBÉM)
+  const voltarParaLoja = () => {
+    clearCart();
+    navigate("/");
   };
 
   const subtotal = checkoutItems.reduce((acc, i) => acc + i.preco, 0);
@@ -181,7 +190,8 @@ export default function Checkout() {
             </div>
 
             <button onClick={() => setPedidoFinalizado(false)}>Fechar</button>
-            <button onClick={() => navigate("/")}>Voltar à Loja</button>
+            {/* ⬇️ BOTÃO ATUALIZADO PARA LIMPAR CARRINHO */}
+            <button onClick={voltarParaLoja}>Voltar à Loja</button>
           </div>
         </div>
       )}
