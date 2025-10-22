@@ -6,7 +6,6 @@ export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  // Carregar usuário do localStorage ao iniciar
   useEffect(() => {
     const savedUser = localStorage.getItem("user");
     if (savedUser) {
@@ -15,17 +14,21 @@ export function AuthProvider({ children }) {
     setLoading(false);
   }, []);
 
-  // Login
   const login = (email, password) => {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
-        // Simulação de verificação no "backend"
         const users = JSON.parse(localStorage.getItem("users") || "[]");
         const user = users.find(u => u.email === email && u.password === password);
         
         if (user) {
-          const userData = { ...user };
-          delete userData.password; // Remove a senha do estado
+          const userData = { 
+            id: user.id,
+            nome: user.nome,
+            email: user.email,
+            telefone: user.telefone,
+            createdAt: user.createdAt
+            // NÃO inclua a senha!
+          };
           
           setUser(userData);
           localStorage.setItem("user", JSON.stringify(userData));
@@ -37,13 +40,11 @@ export function AuthProvider({ children }) {
     });
   };
 
-  // Cadastro
   const register = (userData) => {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         const users = JSON.parse(localStorage.getItem("users") || "[]");
         
-        // Verificar se usuário já existe
         if (users.find(u => u.email === userData.email)) {
           reject("Este e-mail já está cadastrado");
           return;
@@ -51,16 +52,24 @@ export function AuthProvider({ children }) {
 
         const newUser = {
           id: Date.now().toString(),
-          ...userData,
+          nome: userData.nome,
+          email: userData.email,
+          telefone: userData.telefone,
+          password: userData.password, // Só salva no "banco"
           createdAt: new Date().toISOString()
         };
 
         users.push(newUser);
         localStorage.setItem("users", JSON.stringify(users));
 
-        // Logar automaticamente após cadastro
-        const userWithoutPassword = { ...newUser };
-        delete userWithoutPassword.password;
+        // Retorna usuário sem a senha para o estado
+        const userWithoutPassword = {
+          id: newUser.id,
+          nome: newUser.nome,
+          email: newUser.email,
+          telefone: newUser.telefone,
+          createdAt: newUser.createdAt
+        };
         
         setUser(userWithoutPassword);
         localStorage.setItem("user", JSON.stringify(userWithoutPassword));
@@ -69,10 +78,15 @@ export function AuthProvider({ children }) {
     });
   };
 
-  // Logout
   const logout = () => {
     setUser(null);
     localStorage.removeItem("user");
+  };
+
+  const updateUser = (updatedData) => {
+    const updatedUser = { ...user, ...updatedData };
+    setUser(updatedUser);
+    localStorage.setItem("user", JSON.stringify(updatedUser));
   };
 
   return (
@@ -81,6 +95,7 @@ export function AuthProvider({ children }) {
       login, 
       register, 
       logout, 
+      updateUser,
       loading,
       isAuthenticated: !!user 
     }}>
