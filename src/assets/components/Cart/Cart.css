@@ -226,6 +226,7 @@
   border-top: 1px solid var(--c2);
   background: var(--w);
   flex-shrink: 0;
+  margin-bottom: 100px; /* sobe o bloco */
 }
 
 .cart-total {

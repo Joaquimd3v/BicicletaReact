@@ -1,7 +1,9 @@
 .user-menu {
+  margin-left: auto; 
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: flex-end; 
 }
 
 .auth-buttons {
@@ -86,16 +88,16 @@
 }
 
 .user-dropdown {
-  position: absolute;
-  top: 100%;
-  right: 0;
+  position: fixed; 
+  top: 70px; 
+  right: 20px;
   width: 280px;
   background: var(--w);
   border: 1px solid var(--c3);
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
   padding: 16px;
-  z-index: 1000;
+  z-index: 10000;
   animation: slideDown 0.2s ease;
 }
 

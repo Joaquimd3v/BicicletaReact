@@ -4,7 +4,7 @@ import "./Parceiros.css";
 const basePath = "/BicicletaReact";
 
 const parceiros = [
-  { name: "Caloi", logo: `${basePath}/img/parceiros/Caloi.svg` },
+  { name: "Caloi", logo: `${basePath}/img/parceiros/caloi.svg` },
   { name: "Cannondale", logo: `${basePath}/img/parceiros/cannondale.svg` },
   { name: "Gt", logo: `${basePath}/img/parceiros/gt.png` },
   { name: "Trek", logo: `${basePath}/img/parceiros/trek.svg` },
